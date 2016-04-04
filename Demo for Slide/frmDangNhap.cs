@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Demo
 {
-    public partial class frmDangNhap : Form
+    public partial class frmDangNhap : DevExpress.XtraEditors.XtraForm
     {
         public frmDangNhap()
         {
@@ -27,8 +27,8 @@ namespace Demo
             
             frmChinh FC = new frmChinh();
             //FC.Activate();
-            FC.ShowDialog();
-            this.Close();
+            FC.Show();
+            this.Hide();
         }
         
         private void label1_Click_1(object sender, EventArgs e)
@@ -57,8 +57,11 @@ namespace Demo
 
         private void btDNThoat_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("bạn có muốn thoát !");
-            this.Close();
+           DialogResult dialog =  MessageBox.Show("bạn có muốn thoát !","thongbao", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if(dialog == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
         }
 
         private void lbDNTaoTaiKhoan_Click(object sender, EventArgs e)

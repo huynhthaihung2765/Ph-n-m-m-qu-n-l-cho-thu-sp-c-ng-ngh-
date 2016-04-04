@@ -12,17 +12,22 @@ using DAL;
 
 namespace Demo
 {
-    public partial class frmChinh : Form
+    public partial class frmChinh : DevExpress.XtraEditors.XtraForm
     {
         public frmChinh()
         {
             InitializeComponent();
+            DevExpress.UserSkins.BonusSkins.Register();
+            DevExpress.Skins.SkinManager.EnableFormSkins();
+            DevExpress.XtraBars.Helpers.SkinHelper.InitSkinGallery(galleryThames, true, false);
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             // TODO: This line of code loads data into the 'qLSPDataSet1.NHANVIEN' table. You can move, or remove it, as needed.
           //  this.nHANVIENTableAdapter.Fill(this.qLSPDataSet1.NHANVIEN);
+
+
         }
 
         private void gridControl1_Click(object sender, EventArgs e)
@@ -142,8 +147,8 @@ namespace Demo
         private void btHTDoiMatKhau_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             frmDangNhap frmDN = new frmDangNhap();
-            frmDN.ShowDialog();
-            this.Close();
+            frmDN.Show();
+            this.Hide();
         }
     }
 }

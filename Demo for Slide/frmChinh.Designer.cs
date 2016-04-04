@@ -47,6 +47,7 @@
             this.btQLSanPham = new DevExpress.XtraBars.BarButtonItem();
             this.btTTTSanPham = new DevExpress.XtraBars.BarButtonItem();
             this.btTCSanPham = new DevExpress.XtraBars.BarButtonItem();
+            this.galleryThames = new DevExpress.XtraBars.SkinRibbonGalleryBarItem();
             this.rbpgHeThong = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.rbpggrCauHinh = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.rbpggrNgonNgu = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -88,9 +89,10 @@
             this.btTTTKhachHang,
             this.btQLSanPham,
             this.btTTTSanPham,
-            this.btTCSanPham});
+            this.btTCSanPham,
+            this.galleryThames});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl1.MaxItemId = 48;
+            this.ribbonControl1.MaxItemId = 49;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.rbpgHeThong,
@@ -238,6 +240,12 @@
             this.btTCSanPham.Name = "btTCSanPham";
             this.btTCSanPham.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btTCSanPham_ItemClick);
             // 
+            // galleryThames
+            // 
+            this.galleryThames.Caption = "skinRibbonGalleryBarItem1";
+            this.galleryThames.Id = 48;
+            this.galleryThames.Name = "galleryThames";
+            // 
             // rbpgHeThong
             // 
             this.rbpgHeThong.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
@@ -264,6 +272,7 @@
             // 
             // rbpggrGiaoDien
             // 
+            this.rbpggrGiaoDien.ItemLinks.Add(this.galleryThames);
             this.rbpggrGiaoDien.Name = "rbpggrGiaoDien";
             this.rbpggrGiaoDien.Text = "Giao diện";
             // 
@@ -320,8 +329,8 @@
             // rbpggrPhanMem
             // 
             this.rbpggrPhanMem.ItemLinks.Add(this.btTCKhachHang);
-            this.rbpggrPhanMem.ItemLinks.Add(this.btHoaDon);
             this.rbpggrPhanMem.ItemLinks.Add(this.btTCSanPham);
+            this.rbpggrPhanMem.ItemLinks.Add(this.btHoaDon);
             this.rbpggrPhanMem.Name = "rbpggrPhanMem";
             this.rbpggrPhanMem.Text = "Thông tin tìm kiếm";
             // 
@@ -410,6 +419,7 @@
         private DevExpress.XtraBars.BarButtonItem btQLSanPham;
         private DevExpress.XtraBars.BarButtonItem btTTTSanPham;
         private DevExpress.XtraBars.BarButtonItem btTCSanPham;
+        private DevExpress.XtraBars.SkinRibbonGalleryBarItem galleryThames;
     }
 }
 

@@ -17,6 +17,8 @@ namespace Demo
             InitializeComponent();
         }
 
+        QLSPDataContext qlsp = new QLSPDataContext();
+
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -24,7 +26,6 @@ namespace Demo
 
         private void ucQLKhachHang_Load(object sender, EventArgs e)
         {
-
         }
 
         private void btHuy_Click(object sender, EventArgs e)

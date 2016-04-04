@@ -41,11 +41,11 @@
             this.navbarQLSP_Luu = new DevExpress.XtraNavBar.NavBarItem();
             this.navbarQLSP_Thoat = new DevExpress.XtraNavBar.NavBarItem();
             this.navbarPhuKien = new DevExpress.XtraNavBar.NavBarItem();
-            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
-            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.grctrQLSP = new DevExpress.XtraGrid.GridControl();
+            this.grvwQLSP = new DevExpress.XtraGrid.Views.Grid.GridView();
             ((System.ComponentModel.ISupportInitialize)(this.navBarControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grctrQLSP)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grvwQLSP)).BeginInit();
             this.SuspendLayout();
             // 
             // navBarControl1
@@ -68,8 +68,8 @@
             this.navbarQLSP_Thoat});
             this.navBarControl1.Location = new System.Drawing.Point(0, 0);
             this.navBarControl1.Name = "navBarControl1";
-            this.navBarControl1.OptionsNavPane.ExpandedWidth = 161;
-            this.navBarControl1.Size = new System.Drawing.Size(161, 535);
+            this.navBarControl1.OptionsNavPane.ExpandedWidth = 184;
+            this.navBarControl1.Size = new System.Drawing.Size(184, 535);
             this.navBarControl1.TabIndex = 0;
             this.navBarControl1.Text = "Sản phẩm";
             // 
@@ -146,33 +146,34 @@
             this.navbarPhuKien.Caption = "Phụ kiện";
             this.navbarPhuKien.Name = "navbarPhuKien";
             // 
-            // gridControl1
+            // grctrQLSP
             // 
-            this.gridControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gridControl1.Location = new System.Drawing.Point(161, 0);
-            this.gridControl1.MainView = this.gridView1;
-            this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(569, 535);
-            this.gridControl1.TabIndex = 1;
-            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView1});
+            this.grctrQLSP.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.grctrQLSP.Location = new System.Drawing.Point(184, 0);
+            this.grctrQLSP.MainView = this.grvwQLSP;
+            this.grctrQLSP.Name = "grctrQLSP";
+            this.grctrQLSP.Size = new System.Drawing.Size(546, 535);
+            this.grctrQLSP.TabIndex = 1;
+            this.grctrQLSP.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.grvwQLSP});
             // 
-            // gridView1
+            // grvwQLSP
             // 
-            this.gridView1.GridControl = this.gridControl1;
-            this.gridView1.Name = "gridView1";
+            this.grvwQLSP.GridControl = this.grctrQLSP;
+            this.grvwQLSP.Name = "grvwQLSP";
             // 
             // ucQLSanPham
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.gridControl1);
+            this.Controls.Add(this.grctrQLSP);
             this.Controls.Add(this.navBarControl1);
             this.Name = "ucQLSanPham";
             this.Size = new System.Drawing.Size(730, 535);
+            this.Load += new System.EventHandler(this.ucQLSanPham_Load);
             ((System.ComponentModel.ISupportInitialize)(this.navBarControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grctrQLSP)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grvwQLSP)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -192,7 +193,7 @@
         private DevExpress.XtraNavBar.NavBarItem navbarQLSP_Xoa;
         private DevExpress.XtraNavBar.NavBarItem navbarQLSP_Luu;
         private DevExpress.XtraNavBar.NavBarItem navbarQLSP_Thoat;
-        private DevExpress.XtraGrid.GridControl gridControl1;
-        private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
+        private DevExpress.XtraGrid.GridControl grctrQLSP;
+        private DevExpress.XtraGrid.Views.Grid.GridView grvwQLSP;
     }
 }

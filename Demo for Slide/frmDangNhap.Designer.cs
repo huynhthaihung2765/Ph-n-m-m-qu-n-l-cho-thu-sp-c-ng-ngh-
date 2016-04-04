@@ -117,6 +117,7 @@
             // 
             this.txtDNMatKhau.Location = new System.Drawing.Point(142, 57);
             this.txtDNMatKhau.Name = "txtDNMatKhau";
+            this.txtDNMatKhau.Properties.PasswordChar = '*';
             this.txtDNMatKhau.Size = new System.Drawing.Size(100, 20);
             this.txtDNMatKhau.TabIndex = 2;
             // 
@@ -197,7 +198,6 @@
             this.grctrlDangKy.Size = new System.Drawing.Size(164, 305);
             this.grctrlDangKy.TabIndex = 1;
             this.grctrlDangKy.Text = "Đăng ký";
-            this.grctrlDangKy.Paint += new System.Windows.Forms.PaintEventHandler(this.grctrlDangKy_Paint);
             // 
             // lbDKEmail
             // 
@@ -297,7 +297,6 @@
             this.grctrlLayMatKhau.Size = new System.Drawing.Size(167, 305);
             this.grctrlLayMatKhau.TabIndex = 2;
             this.grctrlLayMatKhau.Text = "Lấy mật khẩu";
-            this.grctrlLayMatKhau.Paint += new System.Windows.Forms.PaintEventHandler(this.grctrlLayMatKhau_Paint);
             // 
             // lbLMKEmail
             // 
@@ -370,7 +369,6 @@
             this.grctrlDoiMatKhau.Size = new System.Drawing.Size(185, 305);
             this.grctrlDoiMatKhau.TabIndex = 3;
             this.grctrlDoiMatKhau.Text = "Đổi mật khẩu";
-            this.grctrlDoiMatKhau.Paint += new System.Windows.Forms.PaintEventHandler(this.grcntrDoiMatKhau_Paint);
             // 
             // btDoiMatKhau
             // 
