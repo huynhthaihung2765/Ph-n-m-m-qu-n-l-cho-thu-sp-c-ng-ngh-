@@ -42,15 +42,21 @@
             this.navbarQLKH_Xoa = new DevExpress.XtraNavBar.NavBarItem();
             this.navbarQLKH_Thoat = new DevExpress.XtraNavBar.NavBarItem();
             this.txtQLKH_CMND = new DevExpress.XtraEditors.TextEdit();
-            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
+            this.gridctrl_QLKH = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.gridcln_CMND = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridcln_HoTen = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridcln_DiaChi = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.DIenThoaiKH = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
             ((System.ComponentModel.ISupportInitialize)(this.txtQLKH_Ten.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtQLKH_SDT.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtQLKH_DiaChi.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.navBarControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtQLKH_CMND.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridctrl_QLKH)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.SuspendLayout();
             // 
             // txtQLKH_Ten
@@ -174,27 +180,69 @@
             this.txtQLKH_CMND.Size = new System.Drawing.Size(163, 20);
             this.txtQLKH_CMND.TabIndex = 5;
             // 
-            // gridControl1
+            // gridctrl_QLKH
             // 
-            this.gridControl1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.gridControl1.Location = new System.Drawing.Point(131, 281);
-            this.gridControl1.MainView = this.gridView1;
-            this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(459, 200);
-            this.gridControl1.TabIndex = 6;
-            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridctrl_QLKH.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.gridctrl_QLKH.Location = new System.Drawing.Point(131, 253);
+            this.gridctrl_QLKH.MainView = this.gridView1;
+            this.gridctrl_QLKH.Name = "gridctrl_QLKH";
+            this.gridctrl_QLKH.Size = new System.Drawing.Size(459, 228);
+            this.gridctrl_QLKH.TabIndex = 6;
+            this.gridctrl_QLKH.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
+            this.gridctrl_QLKH.Click += new System.EventHandler(this.gridctrl_QLKH_Click);
             // 
             // gridView1
             // 
-            this.gridView1.GridControl = this.gridControl1;
+            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.gridcln_CMND,
+            this.gridcln_HoTen,
+            this.gridcln_DiaChi,
+            this.DIenThoaiKH});
+            this.gridView1.GridControl = this.gridctrl_QLKH;
             this.gridView1.Name = "gridView1";
+            // 
+            // gridcln_CMND
+            // 
+            this.gridcln_CMND.Caption = "CMND";
+            this.gridcln_CMND.Name = "gridcln_CMND";
+            this.gridcln_CMND.Visible = true;
+            this.gridcln_CMND.VisibleIndex = 0;
+            // 
+            // gridcln_HoTen
+            // 
+            this.gridcln_HoTen.Caption = "Họ tên";
+            this.gridcln_HoTen.Name = "gridcln_HoTen";
+            this.gridcln_HoTen.Visible = true;
+            this.gridcln_HoTen.VisibleIndex = 1;
+            // 
+            // gridcln_DiaChi
+            // 
+            this.gridcln_DiaChi.Caption = "Địa chỉ";
+            this.gridcln_DiaChi.Name = "gridcln_DiaChi";
+            this.gridcln_DiaChi.Visible = true;
+            this.gridcln_DiaChi.VisibleIndex = 2;
+            // 
+            // DIenThoaiKH
+            // 
+            this.DIenThoaiKH.Caption = "Số điện thoại";
+            this.DIenThoaiKH.Name = "DIenThoaiKH";
+            this.DIenThoaiKH.Visible = true;
+            this.DIenThoaiKH.VisibleIndex = 3;
+            // 
+            // groupControl1
+            // 
+            this.groupControl1.Location = new System.Drawing.Point(131, 0);
+            this.groupControl1.Name = "groupControl1";
+            this.groupControl1.Size = new System.Drawing.Size(459, 220);
+            this.groupControl1.TabIndex = 7;
+            this.groupControl1.Text = "Thêm khách hàng";
             // 
             // ucQLKhachHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.gridControl1);
+            this.Controls.Add(this.gridctrl_QLKH);
             this.Controls.Add(this.txtQLKH_CMND);
             this.Controls.Add(this.navBarControl1);
             this.Controls.Add(this.label6);
@@ -204,6 +252,7 @@
             this.Controls.Add(this.txtQLKH_DiaChi);
             this.Controls.Add(this.txtQLKH_SDT);
             this.Controls.Add(this.txtQLKH_Ten);
+            this.Controls.Add(this.groupControl1);
             this.Name = "ucQLKhachHang";
             this.Size = new System.Drawing.Size(590, 481);
             this.Load += new System.EventHandler(this.ucQLKhachHang_Load);
@@ -212,8 +261,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtQLKH_DiaChi.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.navBarControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtQLKH_CMND.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridctrl_QLKH)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -234,7 +284,12 @@
         private DevExpress.XtraNavBar.NavBarItem navbarQLKH_Xoa;
         private DevExpress.XtraNavBar.NavBarItem navbarQLKH_Thoat;
         private DevExpress.XtraEditors.TextEdit txtQLKH_CMND;
-        private DevExpress.XtraGrid.GridControl gridControl1;
+        private DevExpress.XtraGrid.GridControl gridctrl_QLKH;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
+        private DevExpress.XtraEditors.GroupControl groupControl1;
+        private DevExpress.XtraGrid.Columns.GridColumn gridcln_CMND;
+        private DevExpress.XtraGrid.Columns.GridColumn gridcln_HoTen;
+        private DevExpress.XtraGrid.Columns.GridColumn gridcln_DiaChi;
+        private DevExpress.XtraGrid.Columns.GridColumn DIenThoaiKH;
     }
 }
