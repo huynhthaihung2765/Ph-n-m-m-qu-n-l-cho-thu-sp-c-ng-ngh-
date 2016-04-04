@@ -1,0 +1,10 @@
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\DAL\DAL\bin\Debug\DAL.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\DAL\DAL\bin\Debug\DAL.pdb
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\DAL\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\DAL\DAL\obj\Debug\DAL.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\DAL\DAL\obj\Debug\DAL.pdb
+C:\Users\ThaiHung\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\DAL\DAL\bin\Debug\DAL.dll
+C:\Users\ThaiHung\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\DAL\DAL\bin\Debug\DAL.pdb
+C:\Users\ThaiHung\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\DAL\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\ThaiHung\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\DAL\DAL\obj\Debug\DAL.dll
+C:\Users\ThaiHung\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\DAL\DAL\obj\Debug\DAL.pdb

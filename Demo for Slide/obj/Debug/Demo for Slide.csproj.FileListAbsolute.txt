@@ -1,0 +1,193 @@
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\Demo for Slide.exe.config
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\Demo for Slide.exe
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\Demo for Slide.pdb
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.Data.v14.2.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.Printing.v14.2.Core.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.Utils.v14.2.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.XtraBars.v14.2.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.XtraEditors.v14.2.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.XtraGrid.v14.2.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.XtraLayout.v14.2.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.XtraNavBar.v14.2.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.XtraPrinting.v14.2.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.Sparkline.v14.2.Core.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.RichEdit.v14.2.Core.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.XtraTreeList.v14.2.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.Office.v14.2.Core.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.Data.v14.2.xml
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.Printing.v14.2.Core.xml
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.Utils.v14.2.xml
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.XtraBars.v14.2.xml
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.XtraEditors.v14.2.xml
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.XtraGrid.v14.2.xml
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.XtraLayout.v14.2.xml
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.XtraNavBar.v14.2.xml
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.XtraPrinting.v14.2.xml
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.Sparkline.v14.2.Core.xml
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.RichEdit.v14.2.Core.xml
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.XtraTreeList.v14.2.xml
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.Office.v14.2.Core.xml
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\de\DevExpress.Data.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\es\DevExpress.Data.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\ja\DevExpress.Data.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\ru\DevExpress.Data.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\de\DevExpress.Printing.v14.2.Core.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\es\DevExpress.Printing.v14.2.Core.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\ja\DevExpress.Printing.v14.2.Core.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\ru\DevExpress.Printing.v14.2.Core.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\de\DevExpress.Utils.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\es\DevExpress.Utils.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\ja\DevExpress.Utils.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\ru\DevExpress.Utils.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\de\DevExpress.XtraBars.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\es\DevExpress.XtraBars.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\ja\DevExpress.XtraBars.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\ru\DevExpress.XtraBars.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\de\DevExpress.XtraEditors.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\es\DevExpress.XtraEditors.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\ja\DevExpress.XtraEditors.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\ru\DevExpress.XtraEditors.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\de\DevExpress.XtraGrid.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\es\DevExpress.XtraGrid.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\ja\DevExpress.XtraGrid.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\ru\DevExpress.XtraGrid.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\de\DevExpress.XtraLayout.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\es\DevExpress.XtraLayout.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\ja\DevExpress.XtraLayout.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\ru\DevExpress.XtraLayout.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\de\DevExpress.XtraNavBar.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\es\DevExpress.XtraNavBar.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\ja\DevExpress.XtraNavBar.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\ru\DevExpress.XtraNavBar.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\de\DevExpress.XtraPrinting.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\es\DevExpress.XtraPrinting.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\ja\DevExpress.XtraPrinting.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\ru\DevExpress.XtraPrinting.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\de\DevExpress.Sparkline.v14.2.Core.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\es\DevExpress.Sparkline.v14.2.Core.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\ja\DevExpress.Sparkline.v14.2.Core.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\ru\DevExpress.Sparkline.v14.2.Core.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\de\DevExpress.RichEdit.v14.2.Core.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\es\DevExpress.RichEdit.v14.2.Core.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\ja\DevExpress.RichEdit.v14.2.Core.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\ru\DevExpress.RichEdit.v14.2.Core.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\de\DevExpress.XtraTreeList.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\es\DevExpress.XtraTreeList.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\ja\DevExpress.XtraTreeList.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\ru\DevExpress.XtraTreeList.v14.2.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\de\DevExpress.Office.v14.2.Core.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\es\DevExpress.Office.v14.2.Core.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\ja\DevExpress.Office.v14.2.Core.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\bin\Debug\ru\DevExpress.Office.v14.2.Core.resources.dll
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\obj\Debug\Demo for Slide.csprojResolveAssemblyReference.cache
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\obj\Debug\Demo.Form1.resources
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\obj\Debug\Demo.Properties.Resources.resources
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\obj\Debug\Demo for Slide.csproj.GenerateResource.Cache
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\obj\Debug\Demo for Slide.exe.licenses
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\obj\Debug\Demo for Slide.exe
+E:\HocTap\C#\DEMO for Slide\Demo for Slide\Demo for Slide\obj\Debug\Demo for Slide.pdb
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\Demo for Slide.exe.config
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\obj\Debug\Demo for Slide.exe
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\obj\Debug\Demo for Slide.pdb
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\obj\Debug\Demo.Properties.Resources.resources
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\obj\Debug\Demo.ucHTHuongDanSuDung.resources
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\obj\Debug\Demo.ucQLKhachHang.resources
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\obj\Debug\Demo.ucQLSanPham.resources
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\obj\Debug\Demo.ucTTTKhachHang.resources
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\obj\Debug\Demo.ucTTTSanPham.resources
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\obj\Debug\Demo for Slide.csproj.GenerateResource.Cache
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\obj\Debug\Demo for Slide.exe.licenses
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\Demo for Slide.exe
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\Demo for Slide.pdb
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.Data.v14.2.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.Printing.v14.2.Core.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.Utils.v14.2.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.XtraBars.v14.2.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.XtraEditors.v14.2.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.XtraGrid.v14.2.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.XtraLayout.v14.2.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.XtraNavBar.v14.2.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.XtraPrinting.v14.2.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.Sparkline.v14.2.Core.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.RichEdit.v14.2.Core.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.XtraTreeList.v14.2.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.Office.v14.2.Core.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.Data.v14.2.xml
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.Printing.v14.2.Core.xml
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.Utils.v14.2.xml
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.XtraBars.v14.2.xml
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.XtraEditors.v14.2.xml
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.XtraGrid.v14.2.xml
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.XtraLayout.v14.2.xml
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.XtraNavBar.v14.2.xml
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.XtraPrinting.v14.2.xml
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.Sparkline.v14.2.Core.xml
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.RichEdit.v14.2.Core.xml
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.XtraTreeList.v14.2.xml
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\DevExpress.Office.v14.2.Core.xml
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\de\DevExpress.Data.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\es\DevExpress.Data.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\ja\DevExpress.Data.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\ru\DevExpress.Data.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\de\DevExpress.Printing.v14.2.Core.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\es\DevExpress.Printing.v14.2.Core.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\ja\DevExpress.Printing.v14.2.Core.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\ru\DevExpress.Printing.v14.2.Core.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\de\DevExpress.Utils.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\es\DevExpress.Utils.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\ja\DevExpress.Utils.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\ru\DevExpress.Utils.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\de\DevExpress.XtraBars.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\es\DevExpress.XtraBars.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\ja\DevExpress.XtraBars.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\ru\DevExpress.XtraBars.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\de\DevExpress.XtraEditors.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\es\DevExpress.XtraEditors.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\ja\DevExpress.XtraEditors.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\ru\DevExpress.XtraEditors.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\de\DevExpress.XtraGrid.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\es\DevExpress.XtraGrid.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\ja\DevExpress.XtraGrid.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\ru\DevExpress.XtraGrid.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\de\DevExpress.XtraLayout.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\es\DevExpress.XtraLayout.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\ja\DevExpress.XtraLayout.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\ru\DevExpress.XtraLayout.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\de\DevExpress.XtraNavBar.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\es\DevExpress.XtraNavBar.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\ja\DevExpress.XtraNavBar.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\ru\DevExpress.XtraNavBar.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\de\DevExpress.XtraPrinting.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\es\DevExpress.XtraPrinting.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\ja\DevExpress.XtraPrinting.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\ru\DevExpress.XtraPrinting.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\de\DevExpress.Sparkline.v14.2.Core.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\es\DevExpress.Sparkline.v14.2.Core.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\ja\DevExpress.Sparkline.v14.2.Core.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\ru\DevExpress.Sparkline.v14.2.Core.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\de\DevExpress.RichEdit.v14.2.Core.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\es\DevExpress.RichEdit.v14.2.Core.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\ja\DevExpress.RichEdit.v14.2.Core.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\ru\DevExpress.RichEdit.v14.2.Core.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\de\DevExpress.XtraTreeList.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\es\DevExpress.XtraTreeList.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\ja\DevExpress.XtraTreeList.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\ru\DevExpress.XtraTreeList.v14.2.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\de\DevExpress.Office.v14.2.Core.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\es\DevExpress.Office.v14.2.Core.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\ja\DevExpress.Office.v14.2.Core.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\ru\DevExpress.Office.v14.2.Core.resources.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\obj\Debug\Demo for Slide.csprojResolveAssemblyReference.cache
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\obj\Debug\Demo.frmChinh.resources
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\obj\Debug\Demo.frmDangNhap.resources
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\obj\Debug\Demo.ucBCDoanhThu.resources
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\obj\Debug\Demo.ucBCKhachHang.resources
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\obj\Debug\Demo.ucTTTBienBanThue.resources
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\BUSLayer.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\DAL.dll
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\BUSLayer.pdb
+C:\Users\Cuong\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\DAL.pdb
+C:\Users\ThaiHung\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\bin\Debug\Demo for Slide.exe.config
+C:\Users\ThaiHung\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\obj\Debug\Demo for Slide.exe
+C:\Users\ThaiHung\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\obj\Debug\Demo for Slide.pdb
+C:\Users\ThaiHung\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\Demo for Slide\obj\Debug\Demo for Slide.csprojResolveAssemblyReference.cache
