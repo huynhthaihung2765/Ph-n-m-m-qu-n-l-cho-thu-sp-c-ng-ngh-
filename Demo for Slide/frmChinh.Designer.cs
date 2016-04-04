@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmChinh));
             this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.btHTDangNhap = new DevExpress.XtraBars.BarButtonItem();
             this.btHTDangXuat = new DevExpress.XtraBars.BarButtonItem();
@@ -97,13 +98,14 @@
             this.rbpgTimKiem,
             this.rbpgHotro,
             this.rbpgThietlap});
-            this.ribbonControl1.Size = new System.Drawing.Size(680, 142);
+            this.ribbonControl1.Size = new System.Drawing.Size(680, 177);
             // 
             // btHTDangNhap
             // 
             this.btHTDangNhap.Caption = "Đăng nhập";
             this.btHTDangNhap.CategoryGuid = new System.Guid("6ffddb2b-9015-4d97-a4c1-91613e0ef537");
             this.btHTDangNhap.Id = 20;
+            this.btHTDangNhap.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("btHTDangNhap.LargeGlyph")));
             this.btHTDangNhap.Name = "btHTDangNhap";
             // 
             // btHTDangXuat
@@ -111,6 +113,7 @@
             this.btHTDangXuat.Caption = "Đăng xuất";
             this.btHTDangXuat.CategoryGuid = new System.Guid("6ffddb2b-9015-4d97-a4c1-91613e0ef537");
             this.btHTDangXuat.Id = 21;
+            this.btHTDangXuat.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("btHTDangXuat.LargeGlyph")));
             this.btHTDangXuat.Name = "btHTDangXuat";
             // 
             // btHT_HDSD
@@ -118,6 +121,7 @@
             this.btHT_HDSD.Caption = "Hướng dẫn sử dụng";
             this.btHT_HDSD.CategoryGuid = new System.Guid("6ffddb2b-9015-4d97-a4c1-91613e0ef537");
             this.btHT_HDSD.Id = 22;
+            this.btHT_HDSD.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("btHT_HDSD.LargeGlyph")));
             this.btHT_HDSD.Name = "btHT_HDSD";
             this.btHT_HDSD.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem3_ItemClick);
             // 
@@ -126,6 +130,7 @@
             this.btHTDoiMatKhau.Caption = "Đổi mật khẩu";
             this.btHTDoiMatKhau.CategoryGuid = new System.Guid("6ffddb2b-9015-4d97-a4c1-91613e0ef537");
             this.btHTDoiMatKhau.Id = 23;
+            this.btHTDoiMatKhau.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("btHTDoiMatKhau.LargeGlyph")));
             this.btHTDoiMatKhau.Name = "btHTDoiMatKhau";
             this.btHTDoiMatKhau.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btHTDoiMatKhau_ItemClick);
             // 
@@ -134,6 +139,7 @@
             this.btQLKhachHang.Caption = "Quản lý khách hàng";
             this.btQLKhachHang.CategoryGuid = new System.Guid("6ffddb2b-9015-4d97-a4c1-91613e0ef537");
             this.btQLKhachHang.Id = 24;
+            this.btQLKhachHang.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("btQLKhachHang.LargeGlyph")));
             this.btQLKhachHang.Name = "btQLKhachHang";
             this.btQLKhachHang.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btQLKhachHang_ItemClick);
             // 
@@ -142,6 +148,7 @@
             this.btTTTBienBan.Caption = "Biên bản";
             this.btTTTBienBan.CategoryGuid = new System.Guid("6ffddb2b-9015-4d97-a4c1-91613e0ef537");
             this.btTTTBienBan.Id = 33;
+            this.btTTTBienBan.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("btTTTBienBan.LargeGlyph")));
             this.btTTTBienBan.Name = "btTTTBienBan";
             this.btTTTBienBan.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btTTTBienBan_ItemClick);
             // 
@@ -150,6 +157,7 @@
             this.btTCKhachHang.Caption = "Khách háng";
             this.btTCKhachHang.CategoryGuid = new System.Guid("6ffddb2b-9015-4d97-a4c1-91613e0ef537");
             this.btTCKhachHang.Id = 34;
+            this.btTCKhachHang.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("btTCKhachHang.LargeGlyph")));
             this.btTCKhachHang.Name = "btTCKhachHang";
             this.btTCKhachHang.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btTCKhachHang_ItemClick);
             // 
@@ -158,6 +166,7 @@
             this.btHoaDon.Caption = "Hóa đơn";
             this.btHoaDon.CategoryGuid = new System.Guid("6ffddb2b-9015-4d97-a4c1-91613e0ef537");
             this.btHoaDon.Id = 39;
+            this.btHoaDon.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("btHoaDon.LargeGlyph")));
             this.btHoaDon.Name = "btHoaDon";
             this.btHoaDon.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btHoaDon_ItemClick);
             // 
@@ -198,6 +207,7 @@
             this.btTTTKhachHang.Caption = "Khách hàng";
             this.btTTTKhachHang.CategoryGuid = new System.Guid("6ffddb2b-9015-4d97-a4c1-91613e0ef537");
             this.btTTTKhachHang.Id = 44;
+            this.btTTTKhachHang.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("btTTTKhachHang.LargeGlyph")));
             this.btTTTKhachHang.Name = "btTTTKhachHang";
             this.btTTTKhachHang.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btTTTKhachHang_ItemClick);
             // 
@@ -206,6 +216,7 @@
             this.btQLSanPham.Caption = "Quản lý sản phẩm";
             this.btQLSanPham.CategoryGuid = new System.Guid("6ffddb2b-9015-4d97-a4c1-91613e0ef537");
             this.btQLSanPham.Id = 45;
+            this.btQLSanPham.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("btQLSanPham.LargeGlyph")));
             this.btQLSanPham.Name = "btQLSanPham";
             this.btQLSanPham.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btQLSanPham_ItemClick);
             // 
@@ -214,6 +225,7 @@
             this.btTTTSanPham.Caption = "Sản phẩm";
             this.btTTTSanPham.CategoryGuid = new System.Guid("6ffddb2b-9015-4d97-a4c1-91613e0ef537");
             this.btTTTSanPham.Id = 46;
+            this.btTTTSanPham.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("btTTTSanPham.LargeGlyph")));
             this.btTTTSanPham.Name = "btTTTSanPham";
             this.btTTTSanPham.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btTTTSanPham_ItemClick);
             // 
@@ -222,6 +234,7 @@
             this.btTCSanPham.Caption = "Sản phẩm";
             this.btTCSanPham.CategoryGuid = new System.Guid("6ffddb2b-9015-4d97-a4c1-91613e0ef537");
             this.btTCSanPham.Id = 47;
+            this.btTCSanPham.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("btTCSanPham.LargeGlyph")));
             this.btTCSanPham.Name = "btTCSanPham";
             this.btTCSanPham.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btTCSanPham_ItemClick);
             // 
@@ -231,6 +244,7 @@
             this.rbpggrCauHinh,
             this.rbpggrNgonNgu,
             this.rbpggrGiaoDien});
+            this.rbpgHeThong.Image = ((System.Drawing.Image)(resources.GetObject("rbpgHeThong.Image")));
             this.rbpgHeThong.Name = "rbpgHeThong";
             this.rbpgHeThong.Text = "Hệ thống";
             // 
@@ -257,6 +271,7 @@
             // 
             this.rbpgCapNhat.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.rbpggrDanhMuc});
+            this.rbpgCapNhat.Image = ((System.Drawing.Image)(resources.GetObject("rbpgCapNhat.Image")));
             this.rbpgCapNhat.Name = "rbpgCapNhat";
             this.rbpgCapNhat.Text = "Quản lý";
             // 
@@ -272,6 +287,7 @@
             this.rbggpageDanhMuc,
             this.rbbonPageGroup2,
             this.rbbonPageGroup3});
+            this.rbpgTimKiem.Image = ((System.Drawing.Image)(resources.GetObject("rbpgTimKiem.Image")));
             this.rbpgTimKiem.Name = "rbpgTimKiem";
             this.rbpgTimKiem.Text = "Thông tin thuê";
             // 
@@ -297,6 +313,7 @@
             // 
             this.rbpgHotro.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.rbpggrPhanMem});
+            this.rbpgHotro.Image = ((System.Drawing.Image)(resources.GetObject("rbpgHotro.Image")));
             this.rbpgHotro.Name = "rbpgHotro";
             this.rbpgHotro.Text = "Tra cứu";
             // 
@@ -312,6 +329,7 @@
             // 
             this.rbpgThietlap.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.rbpggrCongCu});
+            this.rbpgThietlap.Image = ((System.Drawing.Image)(resources.GetObject("rbpgThietlap.Image")));
             this.rbpgThietlap.Name = "rbpgThietlap";
             this.rbpgThietlap.Text = "Báo cáo";
             // 
@@ -331,9 +349,9 @@
             // pncntr
             // 
             this.pncntr.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pncntr.Location = new System.Drawing.Point(0, 142);
+            this.pncntr.Location = new System.Drawing.Point(0, 177);
             this.pncntr.Name = "pncntr";
-            this.pncntr.Size = new System.Drawing.Size(680, 289);
+            this.pncntr.Size = new System.Drawing.Size(680, 254);
             this.pncntr.TabIndex = 4;
             // 
             // frmChinh

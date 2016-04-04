@@ -12,3 +12,10 @@ C:\Users\ThaiHung\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\De
 C:\Users\ThaiHung\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\BUSLayer\obj\Debug\BUSLayer.csprojResolveAssemblyReference.cache
 C:\Users\ThaiHung\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\BUSLayer\obj\Debug\BUSLayer.dll
 C:\Users\ThaiHung\Google Drive\Phần mềm demo cho đồ án\Demo-for-Slide\Demo for Slide\BUSLayer\obj\Debug\BUSLayer.pdb
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\BUSLayer\bin\Debug\BUSLayer.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\BUSLayer\bin\Debug\BUSLayer.pdb
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\BUSLayer\bin\Debug\DAL.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\BUSLayer\bin\Debug\DAL.pdb
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\BUSLayer\obj\Debug\BUSLayer.csprojResolveAssemblyReference.cache
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\BUSLayer\obj\Debug\BUSLayer.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\BUSLayer\obj\Debug\BUSLayer.pdb
