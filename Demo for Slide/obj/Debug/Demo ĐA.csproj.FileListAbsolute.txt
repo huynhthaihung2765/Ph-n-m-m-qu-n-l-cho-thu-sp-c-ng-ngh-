@@ -217,3 +217,117 @@ D:\Demo-for-Slide\Demo for Slide\Demo for Slide\obj\Debug\Demo for Slide.exe.lic
 E:\HocTap\DOAN thay Phet\Demo for Slide\bin\Debug\Demo for Slide.exe.config
 E:\HocTap\DOAN thay Phet\Demo for Slide\obj\Debug\Demo for Slide.exe
 E:\HocTap\DOAN thay Phet\Demo for Slide\obj\Debug\Demo for Slide.pdb
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\Demo for Slide.exe.config
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\Demo for Slide.exe
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\Demo for Slide.pdb
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\BUSLayer.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\DAL.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\DevExpress.Data.v14.2.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\DevExpress.Printing.v14.2.Core.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\DevExpress.Utils.v14.2.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\DevExpress.XtraBars.v14.2.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\DevExpress.XtraEditors.v14.2.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\DevExpress.XtraGrid.v14.2.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\DevExpress.XtraLayout.v14.2.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\DevExpress.XtraNavBar.v14.2.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\DevExpress.XtraPrinting.v14.2.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\DevExpress.XtraTreeList.v14.2.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\DevExpress.Sparkline.v14.2.Core.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\DevExpress.RichEdit.v14.2.Core.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\DevExpress.Office.v14.2.Core.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\BUSLayer.pdb
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\DAL.pdb
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\DevExpress.Data.v14.2.xml
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\DevExpress.Printing.v14.2.Core.xml
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\DevExpress.Utils.v14.2.xml
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\DevExpress.XtraBars.v14.2.xml
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\DevExpress.XtraEditors.v14.2.xml
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\DevExpress.XtraGrid.v14.2.xml
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\DevExpress.XtraLayout.v14.2.xml
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\DevExpress.XtraNavBar.v14.2.xml
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\DevExpress.XtraPrinting.v14.2.xml
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\DevExpress.XtraTreeList.v14.2.xml
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\DevExpress.Sparkline.v14.2.Core.xml
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\DevExpress.RichEdit.v14.2.Core.xml
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\DevExpress.Office.v14.2.Core.xml
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\de\DevExpress.Data.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\es\DevExpress.Data.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\ja\DevExpress.Data.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\ru\DevExpress.Data.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\de\DevExpress.Printing.v14.2.Core.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\es\DevExpress.Printing.v14.2.Core.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\ja\DevExpress.Printing.v14.2.Core.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\ru\DevExpress.Printing.v14.2.Core.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\de\DevExpress.Utils.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\es\DevExpress.Utils.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\ja\DevExpress.Utils.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\ru\DevExpress.Utils.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\de\DevExpress.XtraBars.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\es\DevExpress.XtraBars.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\ja\DevExpress.XtraBars.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\ru\DevExpress.XtraBars.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\de\DevExpress.XtraEditors.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\es\DevExpress.XtraEditors.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\ja\DevExpress.XtraEditors.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\ru\DevExpress.XtraEditors.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\de\DevExpress.XtraGrid.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\es\DevExpress.XtraGrid.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\ja\DevExpress.XtraGrid.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\ru\DevExpress.XtraGrid.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\de\DevExpress.XtraLayout.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\es\DevExpress.XtraLayout.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\ja\DevExpress.XtraLayout.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\ru\DevExpress.XtraLayout.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\de\DevExpress.XtraNavBar.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\es\DevExpress.XtraNavBar.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\ja\DevExpress.XtraNavBar.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\ru\DevExpress.XtraNavBar.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\de\DevExpress.XtraPrinting.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\es\DevExpress.XtraPrinting.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\ja\DevExpress.XtraPrinting.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\ru\DevExpress.XtraPrinting.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\de\DevExpress.XtraTreeList.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\es\DevExpress.XtraTreeList.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\ja\DevExpress.XtraTreeList.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\ru\DevExpress.XtraTreeList.v14.2.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\de\DevExpress.Sparkline.v14.2.Core.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\es\DevExpress.Sparkline.v14.2.Core.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\ja\DevExpress.Sparkline.v14.2.Core.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\ru\DevExpress.Sparkline.v14.2.Core.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\de\DevExpress.RichEdit.v14.2.Core.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\es\DevExpress.RichEdit.v14.2.Core.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\ja\DevExpress.RichEdit.v14.2.Core.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\ru\DevExpress.RichEdit.v14.2.Core.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\de\DevExpress.Office.v14.2.Core.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\es\DevExpress.Office.v14.2.Core.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\ja\DevExpress.Office.v14.2.Core.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\bin\Debug\ru\DevExpress.Office.v14.2.Core.resources.dll
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\obj\Debug\Demo ĐA.csprojResolveAssemblyReference.cache
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\obj\Debug\Demo.frmChinh.resources
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\obj\Debug\Demo.frmDangNhap.resources
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\obj\Debug\Demo.Properties.Resources.resources
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\obj\Debug\Demo.ucBCDoanhThu.resources
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\obj\Debug\Demo.ucBCKhachHang.resources
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\obj\Debug\Demo.ucHTHuongDanSuDung.resources
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\obj\Debug\Demo.ucKhachhang.resources
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\obj\Debug\Demo.ucQLKhachHang.resources
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\obj\Debug\Demo.ucQLSanPham.resources
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\obj\Debug\Demo.ucTTTBienBanThue.resources
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\obj\Debug\Demo.ucTTTKhachHang.resources
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\obj\Debug\Demo.ucTTTSanPham.resources
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\obj\Debug\Demo ĐA.csproj.GenerateResource.Cache
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\obj\Debug\Demo for Slide.exe.licenses
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\obj\Debug\Demo for Slide.exe
+D:\Hutech\Đồ án thầy Phết\-n-CNPM\Demo for Slide\obj\Debug\Demo for Slide.pdb

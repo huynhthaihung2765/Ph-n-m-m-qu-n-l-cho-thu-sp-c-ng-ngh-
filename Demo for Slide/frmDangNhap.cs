@@ -30,7 +30,7 @@ namespace Demo
             FC.ShowDialog();
             this.Close();
         }
-
+        
         private void label1_Click_1(object sender, EventArgs e)
         {
 
@@ -65,5 +65,6 @@ namespace Demo
         {
             grctrlDangKy.Enabled = true;
         }
+        
     }
 }
