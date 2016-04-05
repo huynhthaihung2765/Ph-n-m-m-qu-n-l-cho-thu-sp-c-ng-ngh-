@@ -122,6 +122,7 @@
             this.btHTDangXuat.Id = 21;
             this.btHTDangXuat.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("btHTDangXuat.LargeGlyph")));
             this.btHTDangXuat.Name = "btHTDangXuat";
+            this.btHTDangXuat.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btHTDangXuat_ItemClick);
             // 
             // btHT_HDSD
             // 

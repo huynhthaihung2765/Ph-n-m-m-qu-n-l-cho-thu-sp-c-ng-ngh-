@@ -45,8 +45,8 @@
             this.grctrControlCustommer = new DevExpress.XtraGrid.GridControl();
             this.grvwControlCustommer = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.grctrInfor = new DevExpress.XtraEditors.GroupControl();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.txtQLKH_Ten.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtQLKH_SDT.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtQLKH_DiaChi.Properties)).BeginInit();
@@ -215,14 +215,6 @@
             this.grctrInfor.TabIndex = 7;
             this.grctrInfor.Text = "Thông tin";
             // 
-            // simpleButton1
-            // 
-            this.simpleButton1.Location = new System.Drawing.Point(266, 50);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(75, 42);
-            this.simpleButton1.TabIndex = 6;
-            this.simpleButton1.Text = "simpleButton1";
-            // 
             // simpleButton2
             // 
             this.simpleButton2.Location = new System.Drawing.Point(266, 126);
@@ -230,6 +222,15 @@
             this.simpleButton2.Size = new System.Drawing.Size(75, 42);
             this.simpleButton2.TabIndex = 7;
             this.simpleButton2.Text = "simpleButton2";
+            // 
+            // simpleButton1
+            // 
+            this.simpleButton1.Location = new System.Drawing.Point(266, 50);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(75, 42);
+            this.simpleButton1.TabIndex = 6;
+            this.simpleButton1.Text = "simpleButton1";
+            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // ucQLKhachHang
             // 

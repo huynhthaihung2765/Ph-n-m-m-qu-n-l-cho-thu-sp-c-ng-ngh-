@@ -165,5 +165,16 @@ namespace Demo
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void btHTDangXuat_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            DialogResult dialog = MessageBox.Show("Bạn muốn quay lại trang đăng nhập.", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if(dialog == DialogResult.Yes)
+            {
+                frmDangNhap frmDN = new frmDangNhap();
+                frmDN.Show();
+                this.Hide();
+            }
+        }
     }
 }

@@ -66,6 +66,7 @@
             this.txtDMKNhapLai = new DevExpress.XtraEditors.TextEdit();
             this.txtDMKMoi = new DevExpress.XtraEditors.TextEdit();
             this.txtDMKTaiKhoan = new DevExpress.XtraEditors.TextEdit();
+            this.btLMKCancel = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.txtDNTaiKhoan.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtDNMatKhau.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grcntrDangNhap)).BeginInit();
@@ -124,6 +125,10 @@
             // 
             // btDangNhap
             // 
+            this.btDangNhap.Appearance.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btDangNhap.Appearance.ForeColor = System.Drawing.Color.Red;
+            this.btDangNhap.Appearance.Options.UseFont = true;
+            this.btDangNhap.Appearance.Options.UseForeColor = true;
             this.btDangNhap.Location = new System.Drawing.Point(253, 51);
             this.btDangNhap.Name = "btDangNhap";
             this.btDangNhap.Size = new System.Drawing.Size(75, 23);
@@ -224,6 +229,10 @@
             // 
             // btHuyDangKy
             // 
+            this.btHuyDangKy.Appearance.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btHuyDangKy.Appearance.ForeColor = System.Drawing.Color.Red;
+            this.btHuyDangKy.Appearance.Options.UseFont = true;
+            this.btHuyDangKy.Appearance.Options.UseForeColor = true;
             this.btHuyDangKy.Location = new System.Drawing.Point(73, 264);
             this.btHuyDangKy.Name = "btHuyDangKy";
             this.btHuyDangKy.Size = new System.Drawing.Size(73, 23);
@@ -233,11 +242,16 @@
             // 
             // btDangKy
             // 
+            this.btDangKy.Appearance.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btDangKy.Appearance.ForeColor = System.Drawing.Color.Red;
+            this.btDangKy.Appearance.Options.UseFont = true;
+            this.btDangKy.Appearance.Options.UseForeColor = true;
             this.btDangKy.Location = new System.Drawing.Point(72, 235);
             this.btDangKy.Name = "btDangKy";
             this.btDangKy.Size = new System.Drawing.Size(73, 23);
             this.btDangKy.TabIndex = 5;
             this.btDangKy.Text = "Đăng ký";
+            this.btDangKy.Click += new System.EventHandler(this.btDangKy_Click);
             // 
             // txtDKEmail
             // 
@@ -300,6 +314,7 @@
             // 
             // grctrlLayMatKhau
             // 
+            this.grctrlLayMatKhau.Controls.Add(this.btLMKCancel);
             this.grctrlLayMatKhau.Controls.Add(this.lbLMKEmail);
             this.grctrlLayMatKhau.Controls.Add(this.btLayMatKhau);
             this.grctrlLayMatKhau.Controls.Add(this.txtLMKTaiKhoan);
@@ -325,11 +340,16 @@
             // 
             // btLayMatKhau
             // 
+            this.btLayMatKhau.Appearance.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btLayMatKhau.Appearance.ForeColor = System.Drawing.Color.Red;
+            this.btLayMatKhau.Appearance.Options.UseFont = true;
+            this.btLayMatKhau.Appearance.Options.UseForeColor = true;
             this.btLayMatKhau.Location = new System.Drawing.Point(66, 139);
             this.btLayMatKhau.Name = "btLayMatKhau";
             this.btLayMatKhau.Size = new System.Drawing.Size(86, 37);
             this.btLayMatKhau.TabIndex = 3;
             this.btLayMatKhau.Text = "Lấy mật khẩu";
+            this.btLayMatKhau.Click += new System.EventHandler(this.btLayMatKhau_Click);
             // 
             // txtLMKTaiKhoan
             // 
@@ -389,11 +409,16 @@
             // 
             // btDoiMatKhau
             // 
+            this.btDoiMatKhau.Appearance.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btDoiMatKhau.Appearance.ForeColor = System.Drawing.Color.Red;
+            this.btDoiMatKhau.Appearance.Options.UseFont = true;
+            this.btDoiMatKhau.Appearance.Options.UseForeColor = true;
             this.btDoiMatKhau.Location = new System.Drawing.Point(65, 235);
             this.btDoiMatKhau.Name = "btDoiMatKhau";
             this.btDoiMatKhau.Size = new System.Drawing.Size(87, 38);
             this.btDoiMatKhau.TabIndex = 4;
             this.btDoiMatKhau.Text = "Đổi mật khẩu";
+            this.btDoiMatKhau.Click += new System.EventHandler(this.btDoiMatKhau_Click);
             // 
             // lbDMKNhapLai
             // 
@@ -461,6 +486,19 @@
             this.txtDMKTaiKhoan.TabIndex = 0;
             this.txtDMKTaiKhoan.TextChanged += new System.EventHandler(this.txtDMKTaiKhoan_TextChanged);
             // 
+            // btLMKCancel
+            // 
+            this.btLMKCancel.Appearance.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btLMKCancel.Appearance.ForeColor = System.Drawing.Color.Red;
+            this.btLMKCancel.Appearance.Options.UseFont = true;
+            this.btLMKCancel.Appearance.Options.UseForeColor = true;
+            this.btLMKCancel.Location = new System.Drawing.Point(102, 188);
+            this.btLMKCancel.Name = "btLMKCancel";
+            this.btLMKCancel.Size = new System.Drawing.Size(60, 31);
+            this.btLMKCancel.TabIndex = 4;
+            this.btLMKCancel.Text = "Hủy";
+            this.btLMKCancel.Click += new System.EventHandler(this.btLMKCancel_Click);
+            // 
             // frmDangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -472,6 +510,7 @@
             this.Controls.Add(this.grcntrDangNhap);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmDangNhap";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ĐĂNG NHẬP";
             this.Load += new System.EventHandler(this.frmDangNhap_Load);
             ((System.ComponentModel.ISupportInitialize)(this.txtDNTaiKhoan.Properties)).EndInit();
@@ -542,5 +581,6 @@
         private DevExpress.XtraEditors.SimpleButton btExit;
         private DevExpress.XtraEditors.TextEdit txtDMKTaiKhoan;
         private DevExpress.XtraEditors.SimpleButton btMinimize;
+        private DevExpress.XtraEditors.SimpleButton btLMKCancel;
     }
 }

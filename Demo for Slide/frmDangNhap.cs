@@ -157,5 +157,26 @@ namespace Demo
                 Application.Exit();
             }
         }
+
+        private void btLayMatKhau_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btDangKy_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btDoiMatKhau_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btLMKCancel_Click(object sender, EventArgs e)
+        {
+            grcntrDangNhap.Enabled = true;
+            grctrlLayMatKhau.Enabled = false;
+        }
     }
 }
