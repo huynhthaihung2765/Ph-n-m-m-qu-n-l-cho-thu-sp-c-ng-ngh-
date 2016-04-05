@@ -35,6 +35,8 @@ namespace Demo
             //Refresh();//Cách 2
         }
 
+        QLSPDataContext qlsp = new QLSPDataContext();
+
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -42,8 +44,11 @@ namespace Demo
 
         private void ucQLKhachHang_Load(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             gridctrl_QLKH.DataSource = db.KHACHHANGs;
             //loadKhachHang();
+=======
+>>>>>>> origin/master
         }
 
         private void btHuy_Click(object sender, EventArgs e)

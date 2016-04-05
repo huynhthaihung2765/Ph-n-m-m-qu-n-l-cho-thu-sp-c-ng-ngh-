@@ -19,3 +19,10 @@ D:\Hutech\Đồ án thầy Phết\-n-CNPM\BUSLayer\bin\Debug\DAL.pdb
 D:\Hutech\Đồ án thầy Phết\-n-CNPM\BUSLayer\obj\Debug\BUSLayer.csprojResolveAssemblyReference.cache
 D:\Hutech\Đồ án thầy Phết\-n-CNPM\BUSLayer\obj\Debug\BUSLayer.dll
 D:\Hutech\Đồ án thầy Phết\-n-CNPM\BUSLayer\obj\Debug\BUSLayer.pdb
+E:\HocTap\DOAN thay Phet\BUSLayer\bin\Debug\BUSLayer.dll
+E:\HocTap\DOAN thay Phet\BUSLayer\bin\Debug\BUSLayer.pdb
+E:\HocTap\DOAN thay Phet\BUSLayer\bin\Debug\DAL.dll
+E:\HocTap\DOAN thay Phet\BUSLayer\bin\Debug\DAL.pdb
+E:\HocTap\DOAN thay Phet\BUSLayer\obj\Debug\BUSLayer.csprojResolveAssemblyReference.cache
+E:\HocTap\DOAN thay Phet\BUSLayer\obj\Debug\BUSLayer.dll
+E:\HocTap\DOAN thay Phet\BUSLayer\obj\Debug\BUSLayer.pdb
