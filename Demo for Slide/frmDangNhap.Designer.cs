@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDangNhap));
             this.lbDNTaiKhoan = new System.Windows.Forms.Label();
             this.lbDNMatKhau = new System.Windows.Forms.Label();
             this.txtDNTaiKhoan = new DevExpress.XtraEditors.TextEdit();
@@ -198,6 +199,7 @@
             // 
             // grctrlDangKy
             // 
+            this.grctrlDangKy.CaptionImage = ((System.Drawing.Image)(resources.GetObject("grctrlDangKy.CaptionImage")));
             this.grctrlDangKy.Controls.Add(this.lbDKEmail);
             this.grctrlDangKy.Controls.Add(this.btHuyDangKy);
             this.grctrlDangKy.Controls.Add(this.btDangKy);
@@ -315,6 +317,7 @@
             // grctrlLayMatKhau
             // 
             this.grctrlLayMatKhau.Controls.Add(this.btLMKCancel);
+            this.grctrlLayMatKhau.CaptionImage = ((System.Drawing.Image)(resources.GetObject("grctrlLayMatKhau.CaptionImage")));
             this.grctrlLayMatKhau.Controls.Add(this.lbLMKEmail);
             this.grctrlLayMatKhau.Controls.Add(this.btLayMatKhau);
             this.grctrlLayMatKhau.Controls.Add(this.txtLMKTaiKhoan);
@@ -390,6 +393,7 @@
             // 
             // grctrlDoiMatKhau
             // 
+            this.grctrlDoiMatKhau.CaptionImage = ((System.Drawing.Image)(resources.GetObject("grctrlDoiMatKhau.CaptionImage")));
             this.grctrlDoiMatKhau.Controls.Add(this.btDoiMatKhau);
             this.grctrlDoiMatKhau.Controls.Add(this.lbDMKNhapLai);
             this.grctrlDoiMatKhau.Controls.Add(this.lbDMKHienTai);
@@ -432,11 +436,11 @@
             // lbDMKHienTai
             // 
             this.lbDMKHienTai.AutoSize = true;
-            this.lbDMKHienTai.Location = new System.Drawing.Point(23, 91);
+            this.lbDMKHienTai.Location = new System.Drawing.Point(23, 131);
             this.lbDMKHienTai.Name = "lbDMKHienTai";
             this.lbDMKHienTai.Size = new System.Drawing.Size(89, 13);
             this.lbDMKHienTai.TabIndex = 4;
-            this.lbDMKHienTai.Text = "Mật khảu hiện tại";
+            this.lbDMKHienTai.Text = "Mật khẩu hiện tại";
             // 
             // lbDMKMoi
             // 
@@ -450,7 +454,7 @@
             // lbDMKTaiKhoan
             // 
             this.lbDMKTaiKhoan.AutoSize = true;
-            this.lbDMKTaiKhoan.Location = new System.Drawing.Point(23, 42);
+            this.lbDMKTaiKhoan.Location = new System.Drawing.Point(23, 79);
             this.lbDMKTaiKhoan.Name = "lbDMKTaiKhoan";
             this.lbDMKTaiKhoan.Size = new System.Drawing.Size(54, 13);
             this.lbDMKTaiKhoan.TabIndex = 3;
@@ -459,7 +463,7 @@
             // 
             // txtDMKHienTai
             // 
-            this.txtDMKHienTai.Location = new System.Drawing.Point(23, 107);
+            this.txtDMKHienTai.Location = new System.Drawing.Point(23, 147);
             this.txtDMKHienTai.Name = "txtDMKHienTai";
             this.txtDMKHienTai.Size = new System.Drawing.Size(114, 20);
             this.txtDMKHienTai.TabIndex = 1;

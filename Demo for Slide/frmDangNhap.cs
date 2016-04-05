@@ -47,7 +47,7 @@ namespace Demo
 
         private void grctrlDangKy_Paint(object sender, PaintEventArgs e)
         {
-            grctrlDangKy.Enabled = false;
+           // grctrlDangKy.Enabled = false;
         }
 
         private void grctrlLayMatKhau_Paint(object sender, PaintEventArgs e)
