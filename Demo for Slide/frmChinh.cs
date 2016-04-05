@@ -12,7 +12,7 @@ using DAL;
 
 namespace Demo
 {
-    public partial class frmChinh : DevExpress.XtraEditors.XtraForm
+    public partial class frmChinh : DevExpress.XtraBars.Ribbon.RibbonForm
     {
         public frmChinh()
         {
@@ -148,7 +148,22 @@ namespace Demo
         {
             frmDangNhap frmDN = new frmDangNhap();
             frmDN.Show();
+
             this.Hide();
+        }
+
+        private void btExit_Click(object sender, EventArgs e)
+        {
+            DialogResult dialog = MessageBox.Show("Bạn có thật sự muốn thoát.", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dialog == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
+
+        private void btMinimize_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
     }
 }

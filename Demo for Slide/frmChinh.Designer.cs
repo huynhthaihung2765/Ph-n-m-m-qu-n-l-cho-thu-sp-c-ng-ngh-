@@ -62,15 +62,20 @@
             this.rbpggrPhanMem = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.rbpgThietlap = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.rbpggrCongCu = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.applicationMenu1 = new DevExpress.XtraBars.Ribbon.ApplicationMenu(this.components);
             this.nHANVIENBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.pncntr = new DevExpress.XtraEditors.PanelControl();
+            this.btExit = new DevExpress.XtraEditors.SimpleButton();
+            this.btMinimize = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.applicationMenu1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nHANVIENBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pncntr)).BeginInit();
             this.SuspendLayout();
             // 
             // ribbonControl1
             // 
+            this.ribbonControl1.ApplicationIcon = ((System.Drawing.Bitmap)(resources.GetObject("ribbonControl1.ApplicationIcon")));
             this.ribbonControl1.ExpandCollapseItem.Id = 0;
             this.ribbonControl1.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
             this.ribbonControl1.ExpandCollapseItem,
@@ -100,7 +105,7 @@
             this.rbpgTimKiem,
             this.rbpgHotro,
             this.rbpgThietlap});
-            this.ribbonControl1.Size = new System.Drawing.Size(680, 177);
+            this.ribbonControl1.Size = new System.Drawing.Size(680, 179);
             // 
             // btHTDangNhap
             // 
@@ -351,30 +356,62 @@
             this.rbpggrCongCu.Name = "rbpggrCongCu";
             this.rbpggrCongCu.Text = "Thông tin báo cáo";
             // 
+            // applicationMenu1
+            // 
+            this.applicationMenu1.Name = "applicationMenu1";
+            this.applicationMenu1.Ribbon = this.ribbonControl1;
+            // 
             // nHANVIENBindingSource
             // 
             this.nHANVIENBindingSource.DataMember = "NHANVIEN";
             // 
             // pncntr
             // 
+            this.pncntr.AutoSize = true;
             this.pncntr.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pncntr.Location = new System.Drawing.Point(0, 177);
+            this.pncntr.Location = new System.Drawing.Point(0, 179);
             this.pncntr.Name = "pncntr";
-            this.pncntr.Size = new System.Drawing.Size(680, 254);
+            this.pncntr.Size = new System.Drawing.Size(680, 252);
             this.pncntr.TabIndex = 4;
+            // 
+            // btExit
+            // 
+            this.btExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btExit.Location = new System.Drawing.Point(619, 0);
+            this.btExit.Name = "btExit";
+            this.btExit.Size = new System.Drawing.Size(61, 26);
+            this.btExit.TabIndex = 6;
+            this.btExit.Text = "Thoát";
+            this.btExit.Click += new System.EventHandler(this.btExit_Click);
+            // 
+            // btMinimize
+            // 
+            this.btMinimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btMinimize.Location = new System.Drawing.Point(558, 0);
+            this.btMinimize.Name = "btMinimize";
+            this.btMinimize.Size = new System.Drawing.Size(59, 26);
+            this.btMinimize.TabIndex = 6;
+            this.btMinimize.Text = "Thu nhỏ";
+            this.btMinimize.Click += new System.EventHandler(this.btMinimize_Click);
             // 
             // frmChinh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(680, 431);
+            this.Controls.Add(this.btMinimize);
+            this.Controls.Add(this.btExit);
             this.Controls.Add(this.pncntr);
             this.Controls.Add(this.ribbonControl1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmChinh";
+            this.Ribbon = this.ribbonControl1;
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.applicationMenu1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nHANVIENBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pncntr)).EndInit();
             this.ResumeLayout(false);
@@ -420,6 +457,9 @@
         private DevExpress.XtraBars.BarButtonItem btTTTSanPham;
         private DevExpress.XtraBars.BarButtonItem btTCSanPham;
         private DevExpress.XtraBars.SkinRibbonGalleryBarItem galleryThames;
+        private DevExpress.XtraBars.Ribbon.ApplicationMenu applicationMenu1;
+        private DevExpress.XtraEditors.SimpleButton btExit;
+        private DevExpress.XtraEditors.SimpleButton btMinimize;
     }
 }
 
