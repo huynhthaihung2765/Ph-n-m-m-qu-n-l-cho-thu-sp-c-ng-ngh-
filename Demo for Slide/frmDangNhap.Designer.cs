@@ -68,10 +68,6 @@
             this.txtDMKNhapLai = new DevExpress.XtraEditors.TextEdit();
             this.txtDMKMoi = new DevExpress.XtraEditors.TextEdit();
             this.txtDMKTaiKhoan = new DevExpress.XtraEditors.TextEdit();
-            this.txtDKDiaChi = new DevExpress.XtraEditors.TextEdit();
-            this.txtDKSDT = new DevExpress.XtraEditors.TextEdit();
-            this.lbDKSDT = new System.Windows.Forms.Label();
-            this.lbDKDiaChi = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.txtDNTaiKhoan.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtDNMatKhau.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grcntrDangNhap)).BeginInit();
@@ -92,8 +88,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtDMKNhapLai.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtDMKMoi.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtDMKTaiKhoan.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtDKDiaChi.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtDKSDT.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // lbDNTaiKhoan
@@ -117,14 +111,14 @@
             // 
             // txtDNTaiKhoan
             // 
-            this.txtDNTaiKhoan.Location = new System.Drawing.Point(12, 49);
+            this.txtDNTaiKhoan.Location = new System.Drawing.Point(12, 47);
             this.txtDNTaiKhoan.Name = "txtDNTaiKhoan";
             this.txtDNTaiKhoan.Size = new System.Drawing.Size(100, 20);
             this.txtDNTaiKhoan.TabIndex = 1;
             // 
             // txtDNMatKhau
             // 
-            this.txtDNMatKhau.Location = new System.Drawing.Point(133, 48);
+            this.txtDNMatKhau.Location = new System.Drawing.Point(133, 47);
             this.txtDNMatKhau.Name = "txtDNMatKhau";
             this.txtDNMatKhau.Properties.PasswordChar = '*';
             this.txtDNMatKhau.Size = new System.Drawing.Size(100, 20);
@@ -136,9 +130,9 @@
             this.btDangNhap.Appearance.ForeColor = System.Drawing.Color.Red;
             this.btDangNhap.Appearance.Options.UseFont = true;
             this.btDangNhap.Appearance.Options.UseForeColor = true;
-            this.btDangNhap.Location = new System.Drawing.Point(253, 51);
+            this.btDangNhap.Location = new System.Drawing.Point(253, 45);
             this.btDangNhap.Name = "btDangNhap";
-            this.btDangNhap.Size = new System.Drawing.Size(75, 23);
+            this.btDangNhap.Size = new System.Drawing.Size(75, 25);
             this.btDangNhap.TabIndex = 3;
             this.btDangNhap.Text = "Đăng nhập";
             this.btDangNhap.Click += new System.EventHandler(this.btDangNhap_Click);
@@ -184,7 +178,6 @@
             this.grcntrDangNhap.Size = new System.Drawing.Size(481, 101);
             this.grcntrDangNhap.TabIndex = 0;
             this.grcntrDangNhap.Text = "Đăng nhập";
-            this.grcntrDangNhap.Paint += new System.Windows.Forms.PaintEventHandler(this.grcntrDangNhap_Paint);
             // 
             // btMinimize
             // 
@@ -207,10 +200,6 @@
             // grctrlDangKy
             // 
             this.grctrlDangKy.CaptionImage = ((System.Drawing.Image)(resources.GetObject("grctrlDangKy.CaptionImage")));
-            this.grctrlDangKy.Controls.Add(this.lbDKDiaChi);
-            this.grctrlDangKy.Controls.Add(this.lbDKSDT);
-            this.grctrlDangKy.Controls.Add(this.txtDKSDT);
-            this.grctrlDangKy.Controls.Add(this.txtDKDiaChi);
             this.grctrlDangKy.Controls.Add(this.lbDKEmail);
             this.grctrlDangKy.Controls.Add(this.btHuyDangKy);
             this.grctrlDangKy.Controls.Add(this.btDangKy);
@@ -224,7 +213,7 @@
             this.grctrlDangKy.Dock = System.Windows.Forms.DockStyle.Left;
             this.grctrlDangKy.Location = new System.Drawing.Point(0, 101);
             this.grctrlDangKy.Name = "grctrlDangKy";
-            this.grctrlDangKy.Size = new System.Drawing.Size(151, 438);
+            this.grctrlDangKy.Size = new System.Drawing.Size(151, 298);
             this.grctrlDangKy.TabIndex = 1;
             this.grctrlDangKy.Text = "Đăng ký";
             this.grctrlDangKy.Click += new System.EventHandler(this.grctrlDangKy_Click);
@@ -233,7 +222,7 @@
             // lbDKEmail
             // 
             this.lbDKEmail.AutoSize = true;
-            this.lbDKEmail.Location = new System.Drawing.Point(12, 188);
+            this.lbDKEmail.Location = new System.Drawing.Point(12, 212);
             this.lbDKEmail.Name = "lbDKEmail";
             this.lbDKEmail.Size = new System.Drawing.Size(31, 13);
             this.lbDKEmail.TabIndex = 0;
@@ -246,10 +235,10 @@
             this.btHuyDangKy.Appearance.ForeColor = System.Drawing.Color.Red;
             this.btHuyDangKy.Appearance.Options.UseFont = true;
             this.btHuyDangKy.Appearance.Options.UseForeColor = true;
-            this.btHuyDangKy.Location = new System.Drawing.Point(74, 371);
+            this.btHuyDangKy.Location = new System.Drawing.Point(84, 264);
             this.btHuyDangKy.Name = "btHuyDangKy";
-            this.btHuyDangKy.Size = new System.Drawing.Size(73, 23);
-            this.btHuyDangKy.TabIndex = 8;
+            this.btHuyDangKy.Size = new System.Drawing.Size(62, 25);
+            this.btHuyDangKy.TabIndex = 6;
             this.btHuyDangKy.Text = "Hủy";
             this.btHuyDangKy.Click += new System.EventHandler(this.btHuyDangKy_Click);
             // 
@@ -259,16 +248,16 @@
             this.btDangKy.Appearance.ForeColor = System.Drawing.Color.Red;
             this.btDangKy.Appearance.Options.UseFont = true;
             this.btDangKy.Appearance.Options.UseForeColor = true;
-            this.btDangKy.Location = new System.Drawing.Point(73, 342);
+            this.btDangKy.Location = new System.Drawing.Point(5, 264);
             this.btDangKy.Name = "btDangKy";
-            this.btDangKy.Size = new System.Drawing.Size(73, 23);
-            this.btDangKy.TabIndex = 7;
+            this.btDangKy.Size = new System.Drawing.Size(73, 25);
+            this.btDangKy.TabIndex = 5;
             this.btDangKy.Text = "Đăng ký";
             this.btDangKy.Click += new System.EventHandler(this.btDangKy_Click);
             // 
             // txtDKEmail
             // 
-            this.txtDKEmail.Location = new System.Drawing.Point(12, 204);
+            this.txtDKEmail.Location = new System.Drawing.Point(12, 228);
             this.txtDKEmail.Name = "txtDKEmail";
             this.txtDKEmail.Size = new System.Drawing.Size(117, 20);
             this.txtDKEmail.TabIndex = 4;
@@ -276,7 +265,7 @@
             // lbDKTenNguoiDung
             // 
             this.lbDKTenNguoiDung.AutoSize = true;
-            this.lbDKTenNguoiDung.Location = new System.Drawing.Point(12, 42);
+            this.lbDKTenNguoiDung.Location = new System.Drawing.Point(12, 64);
             this.lbDKTenNguoiDung.Name = "lbDKTenNguoiDung";
             this.lbDKTenNguoiDung.Size = new System.Drawing.Size(82, 13);
             this.lbDKTenNguoiDung.TabIndex = 0;
@@ -285,7 +274,7 @@
             // 
             // txtDKTenNguoiDung
             // 
-            this.txtDKTenNguoiDung.Location = new System.Drawing.Point(12, 59);
+            this.txtDKTenNguoiDung.Location = new System.Drawing.Point(12, 83);
             this.txtDKTenNguoiDung.Name = "txtDKTenNguoiDung";
             this.txtDKTenNguoiDung.Size = new System.Drawing.Size(117, 20);
             this.txtDKTenNguoiDung.TabIndex = 1;
@@ -294,7 +283,7 @@
             // lbDKMatKhau
             // 
             this.lbDKMatKhau.AutoSize = true;
-            this.lbDKMatKhau.Location = new System.Drawing.Point(12, 139);
+            this.lbDKMatKhau.Location = new System.Drawing.Point(12, 163);
             this.lbDKMatKhau.Name = "lbDKMatKhau";
             this.lbDKMatKhau.Size = new System.Drawing.Size(51, 13);
             this.lbDKMatKhau.TabIndex = 0;
@@ -303,7 +292,7 @@
             // 
             // txtDKMatKhau
             // 
-            this.txtDKMatKhau.Location = new System.Drawing.Point(12, 156);
+            this.txtDKMatKhau.Location = new System.Drawing.Point(12, 180);
             this.txtDKMatKhau.Name = "txtDKMatKhau";
             this.txtDKMatKhau.Size = new System.Drawing.Size(117, 20);
             this.txtDKMatKhau.TabIndex = 3;
@@ -311,7 +300,7 @@
             // lbDKTaiKhoan
             // 
             this.lbDKTaiKhoan.AutoSize = true;
-            this.lbDKTaiKhoan.Location = new System.Drawing.Point(12, 91);
+            this.lbDKTaiKhoan.Location = new System.Drawing.Point(12, 113);
             this.lbDKTaiKhoan.Name = "lbDKTaiKhoan";
             this.lbDKTaiKhoan.Size = new System.Drawing.Size(53, 13);
             this.lbDKTaiKhoan.TabIndex = 0;
@@ -320,7 +309,7 @@
             // 
             // txtDKTaiKhoan
             // 
-            this.txtDKTaiKhoan.Location = new System.Drawing.Point(12, 107);
+            this.txtDKTaiKhoan.Location = new System.Drawing.Point(12, 131);
             this.txtDKTaiKhoan.Name = "txtDKTaiKhoan";
             this.txtDKTaiKhoan.Size = new System.Drawing.Size(117, 20);
             this.txtDKTaiKhoan.TabIndex = 2;
@@ -337,7 +326,7 @@
             this.grctrlLayMatKhau.Controls.Add(this.txtLMKEmail);
             this.grctrlLayMatKhau.Location = new System.Drawing.Point(151, 101);
             this.grctrlLayMatKhau.Name = "grctrlLayMatKhau";
-            this.grctrlLayMatKhau.Size = new System.Drawing.Size(168, 224);
+            this.grctrlLayMatKhau.Size = new System.Drawing.Size(168, 298);
             this.grctrlLayMatKhau.TabIndex = 2;
             this.grctrlLayMatKhau.Text = "Lấy mật khẩu";
             this.grctrlLayMatKhau.Paint += new System.Windows.Forms.PaintEventHandler(this.grctrlLayMatKhau_Paint_1);
@@ -350,7 +339,7 @@
             this.btLMKCancel.Appearance.Options.UseForeColor = true;
             this.btLMKCancel.Location = new System.Drawing.Point(102, 188);
             this.btLMKCancel.Name = "btLMKCancel";
-            this.btLMKCancel.Size = new System.Drawing.Size(60, 31);
+            this.btLMKCancel.Size = new System.Drawing.Size(60, 25);
             this.btLMKCancel.TabIndex = 4;
             this.btLMKCancel.Text = "Hủy";
             this.btLMKCancel.Click += new System.EventHandler(this.btLMKCancel_Click);
@@ -358,7 +347,7 @@
             // lbLMKEmail
             // 
             this.lbLMKEmail.AutoSize = true;
-            this.lbLMKEmail.Location = new System.Drawing.Point(16, 91);
+            this.lbLMKEmail.Location = new System.Drawing.Point(16, 113);
             this.lbLMKEmail.Name = "lbLMKEmail";
             this.lbLMKEmail.Size = new System.Drawing.Size(31, 13);
             this.lbLMKEmail.TabIndex = 0;
@@ -371,16 +360,16 @@
             this.btLayMatKhau.Appearance.ForeColor = System.Drawing.Color.Red;
             this.btLayMatKhau.Appearance.Options.UseFont = true;
             this.btLayMatKhau.Appearance.Options.UseForeColor = true;
-            this.btLayMatKhau.Location = new System.Drawing.Point(66, 139);
+            this.btLayMatKhau.Location = new System.Drawing.Point(10, 188);
             this.btLayMatKhau.Name = "btLayMatKhau";
-            this.btLayMatKhau.Size = new System.Drawing.Size(86, 37);
+            this.btLayMatKhau.Size = new System.Drawing.Size(86, 25);
             this.btLayMatKhau.TabIndex = 3;
             this.btLayMatKhau.Text = "Lấy mật khẩu";
             this.btLayMatKhau.Click += new System.EventHandler(this.btLayMatKhau_Click);
             // 
             // txtLMKTaiKhoan
             // 
-            this.txtLMKTaiKhoan.Location = new System.Drawing.Point(15, 59);
+            this.txtLMKTaiKhoan.Location = new System.Drawing.Point(16, 83);
             this.txtLMKTaiKhoan.Name = "txtLMKTaiKhoan";
             this.txtLMKTaiKhoan.Size = new System.Drawing.Size(126, 20);
             this.txtLMKTaiKhoan.TabIndex = 1;
@@ -391,7 +380,7 @@
             this.lbLMK.AutoSize = true;
             this.lbLMK.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.lbLMK.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.lbLMK.Location = new System.Drawing.Point(6, 196);
+            this.lbLMK.Location = new System.Drawing.Point(6, 270);
             this.lbLMK.Name = "lbLMK";
             this.lbLMK.Size = new System.Drawing.Size(85, 13);
             this.lbLMK.TabIndex = 3;
@@ -401,7 +390,7 @@
             // lbLMKTaiKhoan
             // 
             this.lbLMKTaiKhoan.AutoSize = true;
-            this.lbLMKTaiKhoan.Location = new System.Drawing.Point(16, 42);
+            this.lbLMKTaiKhoan.Location = new System.Drawing.Point(16, 64);
             this.lbLMKTaiKhoan.Name = "lbLMKTaiKhoan";
             this.lbLMKTaiKhoan.Size = new System.Drawing.Size(53, 13);
             this.lbLMKTaiKhoan.TabIndex = 0;
@@ -410,7 +399,7 @@
             // 
             // txtLMKEmail
             // 
-            this.txtLMKEmail.Location = new System.Drawing.Point(16, 107);
+            this.txtLMKEmail.Location = new System.Drawing.Point(16, 132);
             this.txtLMKEmail.Name = "txtLMKEmail";
             this.txtLMKEmail.Size = new System.Drawing.Size(126, 20);
             this.txtLMKEmail.TabIndex = 2;
@@ -430,7 +419,7 @@
             this.grctrlDoiMatKhau.Dock = System.Windows.Forms.DockStyle.Right;
             this.grctrlDoiMatKhau.Location = new System.Drawing.Point(319, 101);
             this.grctrlDoiMatKhau.Name = "grctrlDoiMatKhau";
-            this.grctrlDoiMatKhau.Size = new System.Drawing.Size(162, 438);
+            this.grctrlDoiMatKhau.Size = new System.Drawing.Size(162, 298);
             this.grctrlDoiMatKhau.TabIndex = 3;
             this.grctrlDoiMatKhau.Text = "Đổi mật khẩu";
             this.grctrlDoiMatKhau.Paint += new System.Windows.Forms.PaintEventHandler(this.grctrlDoiMatKhau_Paint);
@@ -441,9 +430,9 @@
             this.btDoiMatKhau.Appearance.ForeColor = System.Drawing.Color.Red;
             this.btDoiMatKhau.Appearance.Options.UseFont = true;
             this.btDoiMatKhau.Appearance.Options.UseForeColor = true;
-            this.btDoiMatKhau.Location = new System.Drawing.Point(65, 235);
+            this.btDoiMatKhau.Location = new System.Drawing.Point(32, 261);
             this.btDoiMatKhau.Name = "btDoiMatKhau";
-            this.btDoiMatKhau.Size = new System.Drawing.Size(87, 38);
+            this.btDoiMatKhau.Size = new System.Drawing.Size(87, 25);
             this.btDoiMatKhau.TabIndex = 4;
             this.btDoiMatKhau.Text = "Đổi mật khẩu";
             this.btDoiMatKhau.Click += new System.EventHandler(this.btDoiMatKhau_Click);
@@ -451,7 +440,7 @@
             // lbDMKNhapLai
             // 
             this.lbDMKNhapLai.AutoSize = true;
-            this.lbDMKNhapLai.Location = new System.Drawing.Point(20, 188);
+            this.lbDMKNhapLai.Location = new System.Drawing.Point(20, 209);
             this.lbDMKNhapLai.Name = "lbDMKNhapLai";
             this.lbDMKNhapLai.Size = new System.Drawing.Size(111, 13);
             this.lbDMKNhapLai.TabIndex = 5;
@@ -460,7 +449,7 @@
             // lbDMKHienTai
             // 
             this.lbDMKHienTai.AutoSize = true;
-            this.lbDMKHienTai.Location = new System.Drawing.Point(23, 131);
+            this.lbDMKHienTai.Location = new System.Drawing.Point(20, 114);
             this.lbDMKHienTai.Name = "lbDMKHienTai";
             this.lbDMKHienTai.Size = new System.Drawing.Size(89, 13);
             this.lbDMKHienTai.TabIndex = 4;
@@ -469,7 +458,7 @@
             // lbDMKMoi
             // 
             this.lbDMKMoi.AutoSize = true;
-            this.lbDMKMoi.Location = new System.Drawing.Point(23, 139);
+            this.lbDMKMoi.Location = new System.Drawing.Point(20, 162);
             this.lbDMKMoi.Name = "lbDMKMoi";
             this.lbDMKMoi.Size = new System.Drawing.Size(70, 13);
             this.lbDMKMoi.TabIndex = 4;
@@ -478,7 +467,7 @@
             // lbDMKTaiKhoan
             // 
             this.lbDMKTaiKhoan.AutoSize = true;
-            this.lbDMKTaiKhoan.Location = new System.Drawing.Point(23, 79);
+            this.lbDMKTaiKhoan.Location = new System.Drawing.Point(20, 64);
             this.lbDMKTaiKhoan.Name = "lbDMKTaiKhoan";
             this.lbDMKTaiKhoan.Size = new System.Drawing.Size(54, 13);
             this.lbDMKTaiKhoan.TabIndex = 3;
@@ -487,70 +476,38 @@
             // 
             // txtDMKHienTai
             // 
-            this.txtDMKHienTai.Location = new System.Drawing.Point(23, 147);
+            this.txtDMKHienTai.Location = new System.Drawing.Point(20, 132);
             this.txtDMKHienTai.Name = "txtDMKHienTai";
             this.txtDMKHienTai.Size = new System.Drawing.Size(114, 20);
             this.txtDMKHienTai.TabIndex = 1;
             // 
             // txtDMKNhapLai
             // 
-            this.txtDMKNhapLai.Location = new System.Drawing.Point(26, 204);
+            this.txtDMKNhapLai.Location = new System.Drawing.Point(20, 225);
             this.txtDMKNhapLai.Name = "txtDMKNhapLai";
             this.txtDMKNhapLai.Size = new System.Drawing.Size(114, 20);
             this.txtDMKNhapLai.TabIndex = 3;
             // 
             // txtDMKMoi
             // 
-            this.txtDMKMoi.Location = new System.Drawing.Point(23, 156);
+            this.txtDMKMoi.Location = new System.Drawing.Point(20, 178);
             this.txtDMKMoi.Name = "txtDMKMoi";
             this.txtDMKMoi.Size = new System.Drawing.Size(114, 20);
             this.txtDMKMoi.TabIndex = 2;
             // 
             // txtDMKTaiKhoan
             // 
-            this.txtDMKTaiKhoan.Location = new System.Drawing.Point(23, 59);
+            this.txtDMKTaiKhoan.Location = new System.Drawing.Point(20, 83);
             this.txtDMKTaiKhoan.Name = "txtDMKTaiKhoan";
             this.txtDMKTaiKhoan.Size = new System.Drawing.Size(114, 20);
             this.txtDMKTaiKhoan.TabIndex = 0;
             this.txtDMKTaiKhoan.TextChanged += new System.EventHandler(this.txtDMKTaiKhoan_TextChanged);
             // 
-            // txtDKDiaChi
-            // 
-            this.txtDKDiaChi.Location = new System.Drawing.Point(12, 254);
-            this.txtDKDiaChi.Name = "txtDKDiaChi";
-            this.txtDKDiaChi.Size = new System.Drawing.Size(117, 20);
-            this.txtDKDiaChi.TabIndex = 5;
-            // 
-            // txtDKSDT
-            // 
-            this.txtDKSDT.Location = new System.Drawing.Point(12, 301);
-            this.txtDKSDT.Name = "txtDKSDT";
-            this.txtDKSDT.Size = new System.Drawing.Size(117, 20);
-            this.txtDKSDT.TabIndex = 6;
-            // 
-            // lbDKSDT
-            // 
-            this.lbDKSDT.AutoSize = true;
-            this.lbDKSDT.Location = new System.Drawing.Point(15, 281);
-            this.lbDKSDT.Name = "lbDKSDT";
-            this.lbDKSDT.Size = new System.Drawing.Size(73, 13);
-            this.lbDKSDT.TabIndex = 9;
-            this.lbDKSDT.Text = "Số điện thoại:";
-            // 
-            // lbDKDiaChi
-            // 
-            this.lbDKDiaChi.AutoSize = true;
-            this.lbDKDiaChi.Location = new System.Drawing.Point(12, 235);
-            this.lbDKDiaChi.Name = "lbDKDiaChi";
-            this.lbDKDiaChi.Size = new System.Drawing.Size(43, 13);
-            this.lbDKDiaChi.TabIndex = 10;
-            this.lbDKDiaChi.Text = "Địa chỉ:";
-            // 
             // frmDangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(481, 539);
+            this.ClientSize = new System.Drawing.Size(481, 399);
             this.Controls.Add(this.grctrlDoiMatKhau);
             this.Controls.Add(this.grctrlLayMatKhau);
             this.Controls.Add(this.grctrlDangKy);
@@ -584,8 +541,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtDMKNhapLai.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtDMKMoi.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtDMKTaiKhoan.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtDKDiaChi.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtDKSDT.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -631,9 +586,5 @@
         private DevExpress.XtraEditors.TextEdit txtDMKTaiKhoan;
         private DevExpress.XtraEditors.SimpleButton btMinimize;
         private DevExpress.XtraEditors.SimpleButton btLMKCancel;
-        private System.Windows.Forms.Label lbDKDiaChi;
-        private System.Windows.Forms.Label lbDKSDT;
-        private DevExpress.XtraEditors.TextEdit txtDKSDT;
-        private DevExpress.XtraEditors.TextEdit txtDKDiaChi;
     }
 }

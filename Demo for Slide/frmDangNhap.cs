@@ -184,7 +184,7 @@ namespace Demo
         {
                 if (nhanVienBus.kiemTraDangKy(txtDKTaiKhoan.Text, txtDKEmail.Text) == true)
                 {
-                    nhanVienBus.dangKyNhanVien(txtDKTenNguoiDung.Text, txtDKTaiKhoan.Text, txtDKMatKhau.Text, txtDKEmail.Text, txtDKDiaChi.Text, txtDKSDT.Text);
+                    //nhanVienBus.dangKyNhanVien(txtDKTenNguoiDung.Text, txtDKTaiKhoan.Text, txtDKMatKhau.Text, txtDKEmail.Text);
                     XtraMessageBox.Show("Bạn đã đăng ký thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.None);
                 }
                 else
