@@ -206,7 +206,7 @@
             this.gridctrl_QLKH.TabIndex = 6;
             this.gridctrl_QLKH.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
-            this.gridctrl_QLKH.Click += new System.EventHandler(this.gridctrl_QLKH_Click);
+            
             // 
             // gridView1
             // 
@@ -314,7 +314,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.gridctrl_QLKH);
             this.Controls.Add(this.txtQLKH_CMND);
-            this.Controls.Add(this.navBarControl1);
+           // this.Controls.Add(this.navBarControl1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label2);

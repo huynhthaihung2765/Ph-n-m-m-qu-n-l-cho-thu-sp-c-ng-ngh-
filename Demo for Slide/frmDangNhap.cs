@@ -7,27 +7,44 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DevExpress.XtraEditors;
+using DAL;
+using BUSLayer;
 
 namespace Demo
 {
     public partial class frmDangNhap : DevExpress.XtraEditors.XtraForm
     {
+
+        NhanVienBUS nhanVienBus = new NhanVienBUS();
+
         public frmDangNhap()
         {
             InitializeComponent();
+            // Gallery Skin
+            //DevExpress.XtraBars.Helpers.SkinHelper.InitSkinGallery(rbiGallery, true);
+            //UserLookAndFeel.Default.SetSkinStyle("Default");
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
         }
 
+        
+         
         private void btDangNhap_Click(object sender, EventArgs e)
         {
-            
-            frmChinh FC = new frmChinh();
-            //FC.Activate();
-            FC.Show();
-            this.Hide();
+            if (nhanVienBus.kiemTraDangNhap(txtDNTaiKhoan.Text, txtDNMatKhau.Text) == true)
+            {
+                frmChinh FC = new frmChinh();
+                //FC.Activate();
+                FC.Show();
+                this.Hide();
+            }
+            else
+            {
+                XtraMessageBox.Show("Tài khoản và mật khẩu không đúng, vui lòng kiểm tra lại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
         
         private void label1_Click_1(object sender, EventArgs e)
@@ -151,7 +168,7 @@ namespace Demo
 
         private void btExit_Click(object sender, EventArgs e)
         {
-            DialogResult dialog = MessageBox.Show("Bạn thật sự muốn thoát.","Thông báo",MessageBoxButtons.YesNo,MessageBoxIcon.Question);
+            DialogResult dialog = XtraMessageBox.Show("Bạn thật sự muốn thoát.","Thông báo",MessageBoxButtons.YesNo,MessageBoxIcon.Question);
             if(dialog == DialogResult.Yes)
             {
                 Application.Exit();
@@ -165,18 +182,41 @@ namespace Demo
 
         private void btDangKy_Click(object sender, EventArgs e)
         {
-
+                if (nhanVienBus.kiemTraDangKy(txtDKTaiKhoan.Text, txtDKEmail.Text) == true)
+                {
+                    nhanVienBus.dangKyNhanVien(txtDKTenNguoiDung.Text, txtDKTaiKhoan.Text, txtDKMatKhau.Text, txtDKEmail.Text, txtDKDiaChi.Text, txtDKSDT.Text);
+                    XtraMessageBox.Show("Bạn đã đăng ký thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.None);
+                }
+                else
+                {
+                    XtraMessageBox.Show("Tên tài khoản hoặc mật khẩu đã có người sử dụng.", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
         }
 
         private void btDoiMatKhau_Click(object sender, EventArgs e)
         {
-
+            if (nhanVienBus.kiemTraDoiMatKhau(txtDMKTaiKhoan.Text, txtDMKHienTai.Text) == true)
+            {
+                nhanVienBus.doiMaTKhau(txtDMKTaiKhoan.Text, txtDMKMoi.Text);
+                XtraMessageBox.Show("Bạn đã đổi mật khẩu thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.None);
+                grctrlDoiMatKhau.Enabled = false;
+                grcntrDangNhap.Enabled = true;
+            }
+            else
+            {
+                XtraMessageBox.Show("Tài khoản và mật khẩu hiện tại ko đúng.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.None);
+            }
         }
 
         private void btLMKCancel_Click(object sender, EventArgs e)
         {
             grcntrDangNhap.Enabled = true;
             grctrlLayMatKhau.Enabled = false;
+        }
+
+        private void grcntrDangNhap_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

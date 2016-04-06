@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using BUSLayer;
 using DAL;
+using DevExpress.XtraEditors;
 
 namespace Demo
 {
@@ -146,15 +147,19 @@ namespace Demo
 
         private void btHTDoiMatKhau_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            frmDangNhap frmDN = new frmDangNhap();
-            frmDN.Show();
-
-            this.Hide();
+            DialogResult dialog = XtraMessageBox.Show("Bạn thật sự muốn đổi mật khẩu", "Thông báo đăng xuất", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dialog == DialogResult.Yes)
+            {
+                frmDangNhap frmDN = new frmDangNhap();
+                frmDN.Show();
+                this.Hide();
+            }
+          
         }
 
         private void btExit_Click(object sender, EventArgs e)
         {
-            DialogResult dialog = MessageBox.Show("Bạn có thật sự muốn thoát.", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult dialog = XtraMessageBox.Show("Bạn có thật sự muốn thoát.", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (dialog == DialogResult.Yes)
             {
                 Application.Exit();
@@ -168,7 +173,7 @@ namespace Demo
 
         private void btHTDangXuat_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            DialogResult dialog = MessageBox.Show("Bạn muốn quay lại trang đăng nhập.", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult dialog = XtraMessageBox.Show("Bạn thật sự muốn đăng xuất", "Thông báo đăng xuất",MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if(dialog == DialogResult.Yes)
             {
                 frmDangNhap frmDN = new frmDangNhap();

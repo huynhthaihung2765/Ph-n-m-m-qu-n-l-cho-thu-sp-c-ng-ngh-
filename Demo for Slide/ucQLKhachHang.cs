@@ -18,24 +18,8 @@ namespace Demo
             InitializeComponent();
 
         }
-        LinktoSQLDataContext db = new LinktoSQLDataContext();
+       
 
-        private void loadKhachHang()
-        {
-            
-            var list = from p in db.KHACHHANGs
-                       where p.CMND == p.CMND//Chọn toàn bộ bảng
-                       select p;
-            gridctrl_QLKH.DataSource = list;
-        }
-        private void gridctrl_QLKH_Click(object sender, EventArgs e)
-        {
-            //gridctrl_QLKH.DataSource = db.KHACHHANGs;//Cách 1
-            
-            //Refresh();//Cách 2
-        }
-
-        QLSPDataContext qlsp = new QLSPDataContext();
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -44,8 +28,8 @@ namespace Demo
 
         private void ucQLKhachHang_Load(object sender, EventArgs e)
         {
-            gridctrl_QLKH.DataSource = db.KHACHHANGs;
-            //loadKhachHang();
+            
+           ;
         }
 
         private void btHuy_Click(object sender, EventArgs e)

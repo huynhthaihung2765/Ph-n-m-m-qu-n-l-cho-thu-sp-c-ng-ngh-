@@ -19,6 +19,7 @@
       <Column Name="GhiChu" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
       <Column Name="MaSP" Type="System.String" DbType="VarChar(3) NOT NULL" CanBeNull="false" />
       <Association Name="SANPHAM_XuatSP" Member="SANPHAM" ThisKey="MaSP" OtherKey="MaSP" Type="SANPHAM" IsForeignKey="true" />
+      <Association Name="SANPHAM1_XuatSP" Member="SANPHAM1" ThisKey="MaSP" OtherKey="MaSP" Type="SANPHAM1" IsForeignKey="true" />
     </Type>
   </Table>
   <Table Name="dbo.CT_HOPDONG" Member="CT_HOPDONGs">
@@ -55,6 +56,7 @@
       <Column Name="MaSP" Type="System.String" DbType="VarChar(3) NOT NULL" CanBeNull="false" />
       <Association Name="HDTT_CT_HDTT" Member="CT_HDTTs" ThisKey="SoHDTT" OtherKey="SoHDTT" Type="CT_HDTT" />
       <Association Name="SANPHAM_HDTT" Member="SANPHAM" ThisKey="MaSP" OtherKey="MaSP" Type="SANPHAM" IsForeignKey="true" />
+      <Association Name="SANPHAM1_HDTT" Member="SANPHAM1" ThisKey="MaSP" OtherKey="MaSP" Type="SANPHAM1" IsForeignKey="true" />
     </Type>
   </Table>
   <Table Name="dbo.HOPDONG" Member="HOPDONGs">
@@ -84,6 +86,7 @@
       <Association Name="LOAISP_CT_HOPDONG" Member="CT_HOPDONGs" ThisKey="MaLoaiSP" OtherKey="MaLoaiSP" Type="CT_HOPDONG" />
       <Association Name="LOAISP_DATSP" Member="DATSPs" ThisKey="MaLoaiSP" OtherKey="MaLoaiSP" Type="DATSP" />
       <Association Name="LOAISP_SANPHAM" Member="SANPHAMs" ThisKey="MaLoaiSP" OtherKey="MaLoaiSP" Type="SANPHAM" />
+      <Association Name="LOAISP_SANPHAM1" Member="SANPHAM1s" ThisKey="MaLoaiSP" OtherKey="MaLoaiSP" Type="SANPHAM1" />
     </Type>
   </Table>
   <Table Name="dbo.NHANVIEN" Member="NHANVIENs">
@@ -102,6 +105,7 @@
       <Column Name="GhiChu" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
       <Column Name="MaSP" Type="System.String" DbType="VarChar(3) NOT NULL" CanBeNull="false" />
       <Association Name="SANPHAM_NHAPSP" Member="SANPHAM" ThisKey="MaSP" OtherKey="MaSP" Type="SANPHAM" IsForeignKey="true" />
+      <Association Name="SANPHAM1_NHAPSP" Member="SANPHAM1" ThisKey="MaSP" OtherKey="MaSP" Type="SANPHAM1" IsForeignKey="true" />
     </Type>
   </Table>
   <Table Name="dbo.PHANQUYEN" Member="PHANQUYENs">
@@ -129,6 +133,18 @@
       <Association Name="SANPHAM_HDTT" Member="HDTTs" ThisKey="MaSP" OtherKey="MaSP" Type="HDTT" />
       <Association Name="SANPHAM_NHAPSP" Member="NHAPSPs" ThisKey="MaSP" OtherKey="MaSP" Type="NHAPSP" />
       <Association Name="LOAISP_SANPHAM" Member="LOAISP" ThisKey="MaLoaiSP" OtherKey="MaLoaiSP" Type="LOAISP" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SANPHAM" Member="SANPHAM1s">
+    <Type Name="SANPHAM1">
+      <Column Name="MaSP" Type="System.String" DbType="VarChar(3) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MoTa" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="TinhTrang" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="MaLoaiSP" Type="System.String" DbType="VarChar(3) NOT NULL" CanBeNull="false" />
+      <Association Name="SANPHAM1_XuatSP" Member="XuatSPs" ThisKey="MaSP" OtherKey="MaSP" Type="XuatSP" />
+      <Association Name="SANPHAM1_HDTT" Member="HDTTs" ThisKey="MaSP" OtherKey="MaSP" Type="HDTT" />
+      <Association Name="SANPHAM1_NHAPSP" Member="NHAPSPs" ThisKey="MaSP" OtherKey="MaSP" Type="NHAPSP" />
+      <Association Name="LOAISP_SANPHAM1" Member="LOAISP" ThisKey="MaLoaiSP" OtherKey="MaLoaiSP" Type="LOAISP" IsForeignKey="true" />
     </Type>
   </Table>
 </Database>

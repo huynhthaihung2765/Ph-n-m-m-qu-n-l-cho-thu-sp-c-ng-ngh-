@@ -81,23 +81,8 @@
     <Compile Include="frmDangNhap.Designer.cs">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
     </Compile>
-    <Compile Include="LinktoSQL.designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>LinktoSQL.dbml</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QLSP.designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>QLSP.dbml</DependentUpon>
-    </Compile>
-    <Compile Include="QLSPDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>QLSPDataSet.xsd</DependentUpon>
-    </Compile>
     <Compile Include="ucBCDoanhThu.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -190,13 +175,11 @@
     </Compile>
     <EmbeddedResource Include="frmChinh.resx">
       <DependentUpon>frmChinh.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="frmDangNhap.resx">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="LinktoSQL.dbml.layout">
-      <DependentUpon>LinktoSQL.dbml</DependentUpon>
-    </None>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -207,9 +190,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="QLSP.dbml.layout">
-      <DependentUpon>QLSP.dbml</DependentUpon>
-    </None>
     <EmbeddedResource Include="ucBCDoanhThu.resx">
       <DependentUpon>ucBCDoanhThu.cs</DependentUpon>
     </EmbeddedResource>
@@ -237,11 +217,6 @@
     <EmbeddedResource Include="ucTTTSanPham.resx">
       <DependentUpon>ucTTTSanPham.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="LinktoSQL.dbml">
-      <Generator>MSLinqToSQLGenerator</Generator>
-      <LastGenOutput>LinktoSQL.designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -251,22 +226,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="QLSP.dbml">
-      <Generator>MSLinqToSQLGenerator</Generator>
-      <LastGenOutput>QLSP.designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="QLSPDataSet.xsc">
-      <DependentUpon>QLSPDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="QLSPDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>QLSPDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="QLSPDataSet.xss">
-      <DependentUpon>QLSPDataSet.xsd</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

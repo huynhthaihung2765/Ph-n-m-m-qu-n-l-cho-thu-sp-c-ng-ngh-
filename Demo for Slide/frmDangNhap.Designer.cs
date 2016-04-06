@@ -51,6 +51,7 @@
             this.lbDKTaiKhoan = new System.Windows.Forms.Label();
             this.txtDKTaiKhoan = new DevExpress.XtraEditors.TextEdit();
             this.grctrlLayMatKhau = new DevExpress.XtraEditors.GroupControl();
+            this.btLMKCancel = new DevExpress.XtraEditors.SimpleButton();
             this.lbLMKEmail = new System.Windows.Forms.Label();
             this.btLayMatKhau = new DevExpress.XtraEditors.SimpleButton();
             this.txtLMKTaiKhoan = new DevExpress.XtraEditors.TextEdit();
@@ -67,7 +68,10 @@
             this.txtDMKNhapLai = new DevExpress.XtraEditors.TextEdit();
             this.txtDMKMoi = new DevExpress.XtraEditors.TextEdit();
             this.txtDMKTaiKhoan = new DevExpress.XtraEditors.TextEdit();
-            this.btLMKCancel = new DevExpress.XtraEditors.SimpleButton();
+            this.txtDKDiaChi = new DevExpress.XtraEditors.TextEdit();
+            this.txtDKSDT = new DevExpress.XtraEditors.TextEdit();
+            this.lbDKSDT = new System.Windows.Forms.Label();
+            this.lbDKDiaChi = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.txtDNTaiKhoan.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtDNMatKhau.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grcntrDangNhap)).BeginInit();
@@ -88,6 +92,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtDMKNhapLai.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtDMKMoi.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtDMKTaiKhoan.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtDKDiaChi.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtDKSDT.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // lbDNTaiKhoan
@@ -178,6 +184,7 @@
             this.grcntrDangNhap.Size = new System.Drawing.Size(481, 101);
             this.grcntrDangNhap.TabIndex = 0;
             this.grcntrDangNhap.Text = "Đăng nhập";
+            this.grcntrDangNhap.Paint += new System.Windows.Forms.PaintEventHandler(this.grcntrDangNhap_Paint);
             // 
             // btMinimize
             // 
@@ -200,6 +207,10 @@
             // grctrlDangKy
             // 
             this.grctrlDangKy.CaptionImage = ((System.Drawing.Image)(resources.GetObject("grctrlDangKy.CaptionImage")));
+            this.grctrlDangKy.Controls.Add(this.lbDKDiaChi);
+            this.grctrlDangKy.Controls.Add(this.lbDKSDT);
+            this.grctrlDangKy.Controls.Add(this.txtDKSDT);
+            this.grctrlDangKy.Controls.Add(this.txtDKDiaChi);
             this.grctrlDangKy.Controls.Add(this.lbDKEmail);
             this.grctrlDangKy.Controls.Add(this.btHuyDangKy);
             this.grctrlDangKy.Controls.Add(this.btDangKy);
@@ -213,7 +224,7 @@
             this.grctrlDangKy.Dock = System.Windows.Forms.DockStyle.Left;
             this.grctrlDangKy.Location = new System.Drawing.Point(0, 101);
             this.grctrlDangKy.Name = "grctrlDangKy";
-            this.grctrlDangKy.Size = new System.Drawing.Size(151, 298);
+            this.grctrlDangKy.Size = new System.Drawing.Size(151, 438);
             this.grctrlDangKy.TabIndex = 1;
             this.grctrlDangKy.Text = "Đăng ký";
             this.grctrlDangKy.Click += new System.EventHandler(this.grctrlDangKy_Click);
@@ -235,10 +246,10 @@
             this.btHuyDangKy.Appearance.ForeColor = System.Drawing.Color.Red;
             this.btHuyDangKy.Appearance.Options.UseFont = true;
             this.btHuyDangKy.Appearance.Options.UseForeColor = true;
-            this.btHuyDangKy.Location = new System.Drawing.Point(73, 264);
+            this.btHuyDangKy.Location = new System.Drawing.Point(74, 371);
             this.btHuyDangKy.Name = "btHuyDangKy";
             this.btHuyDangKy.Size = new System.Drawing.Size(73, 23);
-            this.btHuyDangKy.TabIndex = 6;
+            this.btHuyDangKy.TabIndex = 8;
             this.btHuyDangKy.Text = "Hủy";
             this.btHuyDangKy.Click += new System.EventHandler(this.btHuyDangKy_Click);
             // 
@@ -248,10 +259,10 @@
             this.btDangKy.Appearance.ForeColor = System.Drawing.Color.Red;
             this.btDangKy.Appearance.Options.UseFont = true;
             this.btDangKy.Appearance.Options.UseForeColor = true;
-            this.btDangKy.Location = new System.Drawing.Point(72, 235);
+            this.btDangKy.Location = new System.Drawing.Point(73, 342);
             this.btDangKy.Name = "btDangKy";
             this.btDangKy.Size = new System.Drawing.Size(73, 23);
-            this.btDangKy.TabIndex = 5;
+            this.btDangKy.TabIndex = 7;
             this.btDangKy.Text = "Đăng ký";
             this.btDangKy.Click += new System.EventHandler(this.btDangKy_Click);
             // 
@@ -316,8 +327,8 @@
             // 
             // grctrlLayMatKhau
             // 
-            this.grctrlLayMatKhau.Controls.Add(this.btLMKCancel);
             this.grctrlLayMatKhau.CaptionImage = ((System.Drawing.Image)(resources.GetObject("grctrlLayMatKhau.CaptionImage")));
+            this.grctrlLayMatKhau.Controls.Add(this.btLMKCancel);
             this.grctrlLayMatKhau.Controls.Add(this.lbLMKEmail);
             this.grctrlLayMatKhau.Controls.Add(this.btLayMatKhau);
             this.grctrlLayMatKhau.Controls.Add(this.txtLMKTaiKhoan);
@@ -330,6 +341,19 @@
             this.grctrlLayMatKhau.TabIndex = 2;
             this.grctrlLayMatKhau.Text = "Lấy mật khẩu";
             this.grctrlLayMatKhau.Paint += new System.Windows.Forms.PaintEventHandler(this.grctrlLayMatKhau_Paint_1);
+            // 
+            // btLMKCancel
+            // 
+            this.btLMKCancel.Appearance.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btLMKCancel.Appearance.ForeColor = System.Drawing.Color.Red;
+            this.btLMKCancel.Appearance.Options.UseFont = true;
+            this.btLMKCancel.Appearance.Options.UseForeColor = true;
+            this.btLMKCancel.Location = new System.Drawing.Point(102, 188);
+            this.btLMKCancel.Name = "btLMKCancel";
+            this.btLMKCancel.Size = new System.Drawing.Size(60, 31);
+            this.btLMKCancel.TabIndex = 4;
+            this.btLMKCancel.Text = "Hủy";
+            this.btLMKCancel.Click += new System.EventHandler(this.btLMKCancel_Click);
             // 
             // lbLMKEmail
             // 
@@ -406,7 +430,7 @@
             this.grctrlDoiMatKhau.Dock = System.Windows.Forms.DockStyle.Right;
             this.grctrlDoiMatKhau.Location = new System.Drawing.Point(319, 101);
             this.grctrlDoiMatKhau.Name = "grctrlDoiMatKhau";
-            this.grctrlDoiMatKhau.Size = new System.Drawing.Size(162, 298);
+            this.grctrlDoiMatKhau.Size = new System.Drawing.Size(162, 438);
             this.grctrlDoiMatKhau.TabIndex = 3;
             this.grctrlDoiMatKhau.Text = "Đổi mật khẩu";
             this.grctrlDoiMatKhau.Paint += new System.Windows.Forms.PaintEventHandler(this.grctrlDoiMatKhau_Paint);
@@ -490,24 +514,43 @@
             this.txtDMKTaiKhoan.TabIndex = 0;
             this.txtDMKTaiKhoan.TextChanged += new System.EventHandler(this.txtDMKTaiKhoan_TextChanged);
             // 
-            // btLMKCancel
+            // txtDKDiaChi
             // 
-            this.btLMKCancel.Appearance.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btLMKCancel.Appearance.ForeColor = System.Drawing.Color.Red;
-            this.btLMKCancel.Appearance.Options.UseFont = true;
-            this.btLMKCancel.Appearance.Options.UseForeColor = true;
-            this.btLMKCancel.Location = new System.Drawing.Point(102, 188);
-            this.btLMKCancel.Name = "btLMKCancel";
-            this.btLMKCancel.Size = new System.Drawing.Size(60, 31);
-            this.btLMKCancel.TabIndex = 4;
-            this.btLMKCancel.Text = "Hủy";
-            this.btLMKCancel.Click += new System.EventHandler(this.btLMKCancel_Click);
+            this.txtDKDiaChi.Location = new System.Drawing.Point(12, 254);
+            this.txtDKDiaChi.Name = "txtDKDiaChi";
+            this.txtDKDiaChi.Size = new System.Drawing.Size(117, 20);
+            this.txtDKDiaChi.TabIndex = 5;
+            // 
+            // txtDKSDT
+            // 
+            this.txtDKSDT.Location = new System.Drawing.Point(12, 301);
+            this.txtDKSDT.Name = "txtDKSDT";
+            this.txtDKSDT.Size = new System.Drawing.Size(117, 20);
+            this.txtDKSDT.TabIndex = 6;
+            // 
+            // lbDKSDT
+            // 
+            this.lbDKSDT.AutoSize = true;
+            this.lbDKSDT.Location = new System.Drawing.Point(15, 281);
+            this.lbDKSDT.Name = "lbDKSDT";
+            this.lbDKSDT.Size = new System.Drawing.Size(73, 13);
+            this.lbDKSDT.TabIndex = 9;
+            this.lbDKSDT.Text = "Số điện thoại:";
+            // 
+            // lbDKDiaChi
+            // 
+            this.lbDKDiaChi.AutoSize = true;
+            this.lbDKDiaChi.Location = new System.Drawing.Point(12, 235);
+            this.lbDKDiaChi.Name = "lbDKDiaChi";
+            this.lbDKDiaChi.Size = new System.Drawing.Size(43, 13);
+            this.lbDKDiaChi.TabIndex = 10;
+            this.lbDKDiaChi.Text = "Địa chỉ:";
             // 
             // frmDangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(481, 399);
+            this.ClientSize = new System.Drawing.Size(481, 539);
             this.Controls.Add(this.grctrlDoiMatKhau);
             this.Controls.Add(this.grctrlLayMatKhau);
             this.Controls.Add(this.grctrlDangKy);
@@ -541,6 +584,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtDMKNhapLai.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtDMKMoi.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtDMKTaiKhoan.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtDKDiaChi.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtDKSDT.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -586,5 +631,9 @@
         private DevExpress.XtraEditors.TextEdit txtDMKTaiKhoan;
         private DevExpress.XtraEditors.SimpleButton btMinimize;
         private DevExpress.XtraEditors.SimpleButton btLMKCancel;
+        private System.Windows.Forms.Label lbDKDiaChi;
+        private System.Windows.Forms.Label lbDKSDT;
+        private DevExpress.XtraEditors.TextEdit txtDKSDT;
+        private DevExpress.XtraEditors.TextEdit txtDKDiaChi;
     }
 }

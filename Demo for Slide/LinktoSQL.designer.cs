@@ -69,6 +69,9 @@ namespace Demo
     partial void InsertSANPHAM(SANPHAM instance);
     partial void UpdateSANPHAM(SANPHAM instance);
     partial void DeleteSANPHAM(SANPHAM instance);
+    partial void InsertSANPHAM1(SANPHAM1 instance);
+    partial void UpdateSANPHAM1(SANPHAM1 instance);
+    partial void DeleteSANPHAM1(SANPHAM1 instance);
     #endregion
 		
 		public LinktoSQLDataContext() : 
@@ -202,6 +205,14 @@ namespace Demo
 			get
 			{
 				return this.GetTable<SANPHAM>();
+			}
+		}
+		
+		public System.Data.Linq.Table<SANPHAM1> SANPHAM1s
+		{
+			get
+			{
+				return this.GetTable<SANPHAM1>();
 			}
 		}
 	}
@@ -508,6 +519,8 @@ namespace Demo
 		
 		private EntityRef<SANPHAM> _SANPHAM;
 		
+		private EntityRef<SANPHAM1> _SANPHAM1;
+		
     #region Extensibility Method Definitions
     partial void OnLoaded();
     partial void OnValidate(System.Data.Linq.ChangeAction action);
@@ -523,6 +536,7 @@ namespace Demo
 		public XuatSP()
 		{
 			this._SANPHAM = default(EntityRef<SANPHAM>);
+			this._SANPHAM1 = default(EntityRef<SANPHAM1>);
 			OnCreated();
 		}
 		
@@ -577,7 +591,7 @@ namespace Demo
 			{
 				if ((this._MaSP != value))
 				{
-					if (this._SANPHAM.HasLoadedOrAssignedValue)
+					if ((this._SANPHAM.HasLoadedOrAssignedValue || this._SANPHAM1.HasLoadedOrAssignedValue))
 					{
 						throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
 					}
@@ -620,6 +634,40 @@ namespace Demo
 						this._MaSP = default(string);
 					}
 					this.SendPropertyChanged("SANPHAM");
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="SANPHAM1_XuatSP", Storage="_SANPHAM1", ThisKey="MaSP", OtherKey="MaSP", IsForeignKey=true)]
+		public SANPHAM1 SANPHAM1
+		{
+			get
+			{
+				return this._SANPHAM1.Entity;
+			}
+			set
+			{
+				SANPHAM1 previousValue = this._SANPHAM1.Entity;
+				if (((previousValue != value) 
+							|| (this._SANPHAM1.HasLoadedOrAssignedValue == false)))
+				{
+					this.SendPropertyChanging();
+					if ((previousValue != null))
+					{
+						this._SANPHAM1.Entity = null;
+						previousValue.XuatSPs.Remove(this);
+					}
+					this._SANPHAM1.Entity = value;
+					if ((value != null))
+					{
+						value.XuatSPs.Add(this);
+						this._MaSP = value.MaSP;
+					}
+					else
+					{
+						this._MaSP = default(string);
+					}
+					this.SendPropertyChanged("SANPHAM1");
 				}
 			}
 		}
@@ -1217,6 +1265,8 @@ namespace Demo
 		
 		private EntityRef<SANPHAM> _SANPHAM;
 		
+		private EntityRef<SANPHAM1> _SANPHAM1;
+		
     #region Extensibility Method Definitions
     partial void OnLoaded();
     partial void OnValidate(System.Data.Linq.ChangeAction action);
@@ -1237,6 +1287,7 @@ namespace Demo
 		{
 			this._CT_HDTTs = new EntitySet<CT_HDTT>(new Action<CT_HDTT>(this.attach_CT_HDTTs), new Action<CT_HDTT>(this.detach_CT_HDTTs));
 			this._SANPHAM = default(EntityRef<SANPHAM>);
+			this._SANPHAM1 = default(EntityRef<SANPHAM1>);
 			OnCreated();
 		}
 		
@@ -1331,7 +1382,7 @@ namespace Demo
 			{
 				if ((this._MaSP != value))
 				{
-					if (this._SANPHAM.HasLoadedOrAssignedValue)
+					if ((this._SANPHAM.HasLoadedOrAssignedValue || this._SANPHAM1.HasLoadedOrAssignedValue))
 					{
 						throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
 					}
@@ -1387,6 +1438,40 @@ namespace Demo
 						this._MaSP = default(string);
 					}
 					this.SendPropertyChanged("SANPHAM");
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="SANPHAM1_HDTT", Storage="_SANPHAM1", ThisKey="MaSP", OtherKey="MaSP", IsForeignKey=true)]
+		public SANPHAM1 SANPHAM1
+		{
+			get
+			{
+				return this._SANPHAM1.Entity;
+			}
+			set
+			{
+				SANPHAM1 previousValue = this._SANPHAM1.Entity;
+				if (((previousValue != value) 
+							|| (this._SANPHAM1.HasLoadedOrAssignedValue == false)))
+				{
+					this.SendPropertyChanging();
+					if ((previousValue != null))
+					{
+						this._SANPHAM1.Entity = null;
+						previousValue.HDTTs.Remove(this);
+					}
+					this._SANPHAM1.Entity = value;
+					if ((value != null))
+					{
+						value.HDTTs.Add(this);
+						this._MaSP = value.MaSP;
+					}
+					else
+					{
+						this._MaSP = default(string);
+					}
+					this.SendPropertyChanged("SANPHAM1");
 				}
 			}
 		}
@@ -1794,6 +1879,8 @@ namespace Demo
 		
 		private EntitySet<SANPHAM> _SANPHAMs;
 		
+		private EntitySet<SANPHAM1> _SANPHAM1s;
+		
     #region Extensibility Method Definitions
     partial void OnLoaded();
     partial void OnValidate(System.Data.Linq.ChangeAction action);
@@ -1811,6 +1898,7 @@ namespace Demo
 			this._CT_HOPDONGs = new EntitySet<CT_HOPDONG>(new Action<CT_HOPDONG>(this.attach_CT_HOPDONGs), new Action<CT_HOPDONG>(this.detach_CT_HOPDONGs));
 			this._DATSPs = new EntitySet<DATSP>(new Action<DATSP>(this.attach_DATSPs), new Action<DATSP>(this.detach_DATSPs));
 			this._SANPHAMs = new EntitySet<SANPHAM>(new Action<SANPHAM>(this.attach_SANPHAMs), new Action<SANPHAM>(this.detach_SANPHAMs));
+			this._SANPHAM1s = new EntitySet<SANPHAM1>(new Action<SANPHAM1>(this.attach_SANPHAM1s), new Action<SANPHAM1>(this.detach_SANPHAM1s));
 			OnCreated();
 		}
 		
@@ -1913,6 +2001,19 @@ namespace Demo
 			}
 		}
 		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="LOAISP_SANPHAM1", Storage="_SANPHAM1s", ThisKey="MaLoaiSP", OtherKey="MaLoaiSP")]
+		public EntitySet<SANPHAM1> SANPHAM1s
+		{
+			get
+			{
+				return this._SANPHAM1s;
+			}
+			set
+			{
+				this._SANPHAM1s.Assign(value);
+			}
+		}
+		
 		public event PropertyChangingEventHandler PropertyChanging;
 		
 		public event PropertyChangedEventHandler PropertyChanged;
@@ -1964,6 +2065,18 @@ namespace Demo
 		}
 		
 		private void detach_SANPHAMs(SANPHAM entity)
+		{
+			this.SendPropertyChanging();
+			entity.LOAISP = null;
+		}
+		
+		private void attach_SANPHAM1s(SANPHAM1 entity)
+		{
+			this.SendPropertyChanging();
+			entity.LOAISP = this;
+		}
+		
+		private void detach_SANPHAM1s(SANPHAM1 entity)
 		{
 			this.SendPropertyChanging();
 			entity.LOAISP = null;
@@ -2170,6 +2283,8 @@ namespace Demo
 		
 		private EntityRef<SANPHAM> _SANPHAM;
 		
+		private EntityRef<SANPHAM1> _SANPHAM1;
+		
     #region Extensibility Method Definitions
     partial void OnLoaded();
     partial void OnValidate(System.Data.Linq.ChangeAction action);
@@ -2185,6 +2300,7 @@ namespace Demo
 		public NHAPSP()
 		{
 			this._SANPHAM = default(EntityRef<SANPHAM>);
+			this._SANPHAM1 = default(EntityRef<SANPHAM1>);
 			OnCreated();
 		}
 		
@@ -2239,7 +2355,7 @@ namespace Demo
 			{
 				if ((this._MaSP != value))
 				{
-					if (this._SANPHAM.HasLoadedOrAssignedValue)
+					if ((this._SANPHAM.HasLoadedOrAssignedValue || this._SANPHAM1.HasLoadedOrAssignedValue))
 					{
 						throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
 					}
@@ -2282,6 +2398,40 @@ namespace Demo
 						this._MaSP = default(string);
 					}
 					this.SendPropertyChanged("SANPHAM");
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="SANPHAM1_NHAPSP", Storage="_SANPHAM1", ThisKey="MaSP", OtherKey="MaSP", IsForeignKey=true)]
+		public SANPHAM1 SANPHAM1
+		{
+			get
+			{
+				return this._SANPHAM1.Entity;
+			}
+			set
+			{
+				SANPHAM1 previousValue = this._SANPHAM1.Entity;
+				if (((previousValue != value) 
+							|| (this._SANPHAM1.HasLoadedOrAssignedValue == false)))
+				{
+					this.SendPropertyChanging();
+					if ((previousValue != null))
+					{
+						this._SANPHAM1.Entity = null;
+						previousValue.NHAPSPs.Remove(this);
+					}
+					this._SANPHAM1.Entity = value;
+					if ((value != null))
+					{
+						value.NHAPSPs.Add(this);
+						this._MaSP = value.MaSP;
+					}
+					else
+					{
+						this._MaSP = default(string);
+					}
+					this.SendPropertyChanged("SANPHAM1");
 				}
 			}
 		}
@@ -2845,6 +2995,265 @@ namespace Demo
 		{
 			this.SendPropertyChanging();
 			entity.SANPHAM = null;
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.SANPHAM")]
+	public partial class SANPHAM1 : INotifyPropertyChanging, INotifyPropertyChanged
+	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private string _MaSP;
+		
+		private string _MoTa;
+		
+		private string _TinhTrang;
+		
+		private string _MaLoaiSP;
+		
+		private EntitySet<XuatSP> _XuatSPs;
+		
+		private EntitySet<HDTT> _HDTTs;
+		
+		private EntitySet<NHAPSP> _NHAPSPs;
+		
+		private EntityRef<LOAISP> _LOAISP;
+		
+    #region Extensibility Method Definitions
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnMaSPChanging(string value);
+    partial void OnMaSPChanged();
+    partial void OnMoTaChanging(string value);
+    partial void OnMoTaChanged();
+    partial void OnTinhTrangChanging(string value);
+    partial void OnTinhTrangChanged();
+    partial void OnMaLoaiSPChanging(string value);
+    partial void OnMaLoaiSPChanged();
+    #endregion
+		
+		public SANPHAM1()
+		{
+			this._XuatSPs = new EntitySet<XuatSP>(new Action<XuatSP>(this.attach_XuatSPs), new Action<XuatSP>(this.detach_XuatSPs));
+			this._HDTTs = new EntitySet<HDTT>(new Action<HDTT>(this.attach_HDTTs), new Action<HDTT>(this.detach_HDTTs));
+			this._NHAPSPs = new EntitySet<NHAPSP>(new Action<NHAPSP>(this.attach_NHAPSPs), new Action<NHAPSP>(this.detach_NHAPSPs));
+			this._LOAISP = default(EntityRef<LOAISP>);
+			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MaSP", DbType="VarChar(3) NOT NULL", CanBeNull=false, IsPrimaryKey=true)]
+		public string MaSP
+		{
+			get
+			{
+				return this._MaSP;
+			}
+			set
+			{
+				if ((this._MaSP != value))
+				{
+					this.OnMaSPChanging(value);
+					this.SendPropertyChanging();
+					this._MaSP = value;
+					this.SendPropertyChanged("MaSP");
+					this.OnMaSPChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MoTa", DbType="Text", UpdateCheck=UpdateCheck.Never)]
+		public string MoTa
+		{
+			get
+			{
+				return this._MoTa;
+			}
+			set
+			{
+				if ((this._MoTa != value))
+				{
+					this.OnMoTaChanging(value);
+					this.SendPropertyChanging();
+					this._MoTa = value;
+					this.SendPropertyChanged("MoTa");
+					this.OnMoTaChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TinhTrang", DbType="NVarChar(20)")]
+		public string TinhTrang
+		{
+			get
+			{
+				return this._TinhTrang;
+			}
+			set
+			{
+				if ((this._TinhTrang != value))
+				{
+					this.OnTinhTrangChanging(value);
+					this.SendPropertyChanging();
+					this._TinhTrang = value;
+					this.SendPropertyChanged("TinhTrang");
+					this.OnTinhTrangChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MaLoaiSP", DbType="VarChar(3) NOT NULL", CanBeNull=false)]
+		public string MaLoaiSP
+		{
+			get
+			{
+				return this._MaLoaiSP;
+			}
+			set
+			{
+				if ((this._MaLoaiSP != value))
+				{
+					if (this._LOAISP.HasLoadedOrAssignedValue)
+					{
+						throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+					}
+					this.OnMaLoaiSPChanging(value);
+					this.SendPropertyChanging();
+					this._MaLoaiSP = value;
+					this.SendPropertyChanged("MaLoaiSP");
+					this.OnMaLoaiSPChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="SANPHAM1_XuatSP", Storage="_XuatSPs", ThisKey="MaSP", OtherKey="MaSP")]
+		public EntitySet<XuatSP> XuatSPs
+		{
+			get
+			{
+				return this._XuatSPs;
+			}
+			set
+			{
+				this._XuatSPs.Assign(value);
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="SANPHAM1_HDTT", Storage="_HDTTs", ThisKey="MaSP", OtherKey="MaSP")]
+		public EntitySet<HDTT> HDTTs
+		{
+			get
+			{
+				return this._HDTTs;
+			}
+			set
+			{
+				this._HDTTs.Assign(value);
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="SANPHAM1_NHAPSP", Storage="_NHAPSPs", ThisKey="MaSP", OtherKey="MaSP")]
+		public EntitySet<NHAPSP> NHAPSPs
+		{
+			get
+			{
+				return this._NHAPSPs;
+			}
+			set
+			{
+				this._NHAPSPs.Assign(value);
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="LOAISP_SANPHAM1", Storage="_LOAISP", ThisKey="MaLoaiSP", OtherKey="MaLoaiSP", IsForeignKey=true)]
+		public LOAISP LOAISP
+		{
+			get
+			{
+				return this._LOAISP.Entity;
+			}
+			set
+			{
+				LOAISP previousValue = this._LOAISP.Entity;
+				if (((previousValue != value) 
+							|| (this._LOAISP.HasLoadedOrAssignedValue == false)))
+				{
+					this.SendPropertyChanging();
+					if ((previousValue != null))
+					{
+						this._LOAISP.Entity = null;
+						previousValue.SANPHAM1s.Remove(this);
+					}
+					this._LOAISP.Entity = value;
+					if ((value != null))
+					{
+						value.SANPHAM1s.Add(this);
+						this._MaLoaiSP = value.MaLoaiSP;
+					}
+					else
+					{
+						this._MaLoaiSP = default(string);
+					}
+					this.SendPropertyChanged("LOAISP");
+				}
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+			}
+		}
+		
+		private void attach_XuatSPs(XuatSP entity)
+		{
+			this.SendPropertyChanging();
+			entity.SANPHAM1 = this;
+		}
+		
+		private void detach_XuatSPs(XuatSP entity)
+		{
+			this.SendPropertyChanging();
+			entity.SANPHAM1 = null;
+		}
+		
+		private void attach_HDTTs(HDTT entity)
+		{
+			this.SendPropertyChanging();
+			entity.SANPHAM1 = this;
+		}
+		
+		private void detach_HDTTs(HDTT entity)
+		{
+			this.SendPropertyChanging();
+			entity.SANPHAM1 = null;
+		}
+		
+		private void attach_NHAPSPs(NHAPSP entity)
+		{
+			this.SendPropertyChanging();
+			entity.SANPHAM1 = this;
+		}
+		
+		private void detach_NHAPSPs(NHAPSP entity)
+		{
+			this.SendPropertyChanging();
+			entity.SANPHAM1 = null;
 		}
 	}
 }
