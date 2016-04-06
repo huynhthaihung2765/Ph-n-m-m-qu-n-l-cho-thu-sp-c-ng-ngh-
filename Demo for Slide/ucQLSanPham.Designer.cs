@@ -41,10 +41,10 @@
             this.navbarQLSP_Luu = new DevExpress.XtraNavBar.NavBarItem();
             this.navbarQLSP_Thoat = new DevExpress.XtraNavBar.NavBarItem();
             this.navbarPhuKien = new DevExpress.XtraNavBar.NavBarItem();
-            this.grctrQLSP = new DevExpress.XtraGrid.GridControl();
+            this.grctrl_QLSP = new DevExpress.XtraGrid.GridControl();
             this.grvwQLSP = new DevExpress.XtraGrid.Views.Grid.GridView();
             ((System.ComponentModel.ISupportInitialize)(this.navBarControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grctrQLSP)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grctrl_QLSP)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grvwQLSP)).BeginInit();
             this.SuspendLayout();
             // 
@@ -146,33 +146,33 @@
             this.navbarPhuKien.Caption = "Phụ kiện";
             this.navbarPhuKien.Name = "navbarPhuKien";
             // 
-            // grctrQLSP
+            // grctrl_QLSP
             // 
-            this.grctrQLSP.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.grctrQLSP.Location = new System.Drawing.Point(184, 0);
-            this.grctrQLSP.MainView = this.grvwQLSP;
-            this.grctrQLSP.Name = "grctrQLSP";
-            this.grctrQLSP.Size = new System.Drawing.Size(546, 535);
-            this.grctrQLSP.TabIndex = 1;
-            this.grctrQLSP.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.grctrl_QLSP.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.grctrl_QLSP.Location = new System.Drawing.Point(184, 0);
+            this.grctrl_QLSP.MainView = this.grvwQLSP;
+            this.grctrl_QLSP.Name = "grctrl_QLSP";
+            this.grctrl_QLSP.Size = new System.Drawing.Size(546, 535);
+            this.grctrl_QLSP.TabIndex = 1;
+            this.grctrl_QLSP.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.grvwQLSP});
             // 
             // grvwQLSP
             // 
-            this.grvwQLSP.GridControl = this.grctrQLSP;
+            this.grvwQLSP.GridControl = this.grctrl_QLSP;
             this.grvwQLSP.Name = "grvwQLSP";
             // 
             // ucQLSanPham
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.grctrQLSP);
+            this.Controls.Add(this.grctrl_QLSP);
             this.Controls.Add(this.navBarControl1);
             this.Name = "ucQLSanPham";
             this.Size = new System.Drawing.Size(730, 535);
             this.Load += new System.EventHandler(this.ucQLSanPham_Load);
             ((System.ComponentModel.ISupportInitialize)(this.navBarControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grctrQLSP)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grctrl_QLSP)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.grvwQLSP)).EndInit();
             this.ResumeLayout(false);
 
@@ -193,7 +193,7 @@
         private DevExpress.XtraNavBar.NavBarItem navbarQLSP_Xoa;
         private DevExpress.XtraNavBar.NavBarItem navbarQLSP_Luu;
         private DevExpress.XtraNavBar.NavBarItem navbarQLSP_Thoat;
-        private DevExpress.XtraGrid.GridControl grctrQLSP;
+        private DevExpress.XtraGrid.GridControl grctrl_QLSP;
         private DevExpress.XtraGrid.Views.Grid.GridView grvwQLSP;
     }
 }
