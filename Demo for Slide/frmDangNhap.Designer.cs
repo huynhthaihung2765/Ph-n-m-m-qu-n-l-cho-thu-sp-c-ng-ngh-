@@ -337,7 +337,7 @@
             this.btLMKCancel.Appearance.ForeColor = System.Drawing.Color.Red;
             this.btLMKCancel.Appearance.Options.UseFont = true;
             this.btLMKCancel.Appearance.Options.UseForeColor = true;
-            this.btLMKCancel.Location = new System.Drawing.Point(102, 188);
+            this.btLMKCancel.Location = new System.Drawing.Point(103, 209);
             this.btLMKCancel.Name = "btLMKCancel";
             this.btLMKCancel.Size = new System.Drawing.Size(60, 25);
             this.btLMKCancel.TabIndex = 4;
@@ -360,7 +360,7 @@
             this.btLayMatKhau.Appearance.ForeColor = System.Drawing.Color.Red;
             this.btLayMatKhau.Appearance.Options.UseFont = true;
             this.btLayMatKhau.Appearance.Options.UseForeColor = true;
-            this.btLayMatKhau.Location = new System.Drawing.Point(10, 188);
+            this.btLayMatKhau.Location = new System.Drawing.Point(10, 209);
             this.btLayMatKhau.Name = "btLayMatKhau";
             this.btLayMatKhau.Size = new System.Drawing.Size(86, 25);
             this.btLayMatKhau.TabIndex = 3;
