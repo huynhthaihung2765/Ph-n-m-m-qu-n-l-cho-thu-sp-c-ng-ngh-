@@ -24,3 +24,8 @@ D:\Hutech\DoAnThayPhet\Demo for Slide\DAL\DAL\bin\Debug\DAL.dll
 D:\Hutech\DoAnThayPhet\Demo for Slide\DAL\DAL\bin\Debug\DAL.pdb
 D:\Hutech\DoAnThayPhet\Demo for Slide\DAL\DAL\obj\Debug\DAL.dll
 D:\Hutech\DoAnThayPhet\Demo for Slide\DAL\DAL\obj\Debug\DAL.pdb
+E:\HocTap\Project Base\Demo for Slide\DAL\DAL\bin\Debug\DAL.dll.config
+E:\HocTap\Project Base\Demo for Slide\DAL\DAL\bin\Debug\DAL.dll
+E:\HocTap\Project Base\Demo for Slide\DAL\DAL\bin\Debug\DAL.pdb
+E:\HocTap\Project Base\Demo for Slide\DAL\DAL\obj\Debug\DAL.dll
+E:\HocTap\Project Base\Demo for Slide\DAL\DAL\obj\Debug\DAL.pdb

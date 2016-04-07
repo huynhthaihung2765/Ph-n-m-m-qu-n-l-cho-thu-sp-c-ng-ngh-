@@ -83,10 +83,6 @@ namespace Demo
 
         private void btTTTBienBan_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            pncntr.Controls.Clear();
-            ucTTTBienBanThue thongtinthueBB = new ucTTTBienBanThue();
-            thongtinthueBB.Dock = DockStyle.Fill;
-            pncntr.Controls.Add(thongtinthueBB);
         }
 
         private void btTCKhachHang_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)

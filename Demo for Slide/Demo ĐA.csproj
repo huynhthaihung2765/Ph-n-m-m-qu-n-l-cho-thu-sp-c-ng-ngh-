@@ -50,8 +50,7 @@
     <Reference Include="DevExpress.XtraRichEdit.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraTreeList.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraVerticalGrid.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -155,12 +154,6 @@
     <Compile Include="ucTCSanPham.Designer.cs">
       <DependentUpon>ucTCSanPham.cs</DependentUpon>
     </Compile>
-    <Compile Include="ucTTTBienBanThue.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="ucTTTBienBanThue.Designer.cs">
-      <DependentUpon>ucTTTBienBanThue.cs</DependentUpon>
-    </Compile>
     <Compile Include="ucTTTKhachHang.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -207,9 +200,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ucQLSanPham.resx">
       <DependentUpon>ucQLSanPham.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ucTTTBienBanThue.resx">
-      <DependentUpon>ucTTTBienBanThue.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ucTTTKhachHang.resx">
       <DependentUpon>ucTTTKhachHang.cs</DependentUpon>

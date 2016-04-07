@@ -28,195 +28,61 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.txtQLKH_Ten = new DevExpress.XtraEditors.TextEdit();
-            this.lbCMND = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtQLKH_SDT = new DevExpress.XtraEditors.TextEdit();
-            this.txtQLKH_DiaChi = new DevExpress.XtraEditors.TextEdit();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.nvbrctrControl = new DevExpress.XtraNavBar.NavBarControl();
-            this.navbargrQLKhachHang = new DevExpress.XtraNavBar.NavBarGroup();
-            this.navbarQLKH_Sua = new DevExpress.XtraNavBar.NavBarItem();
-            this.navbarQLKH_Luu = new DevExpress.XtraNavBar.NavBarItem();
-            this.navbarQLKH_Xoa = new DevExpress.XtraNavBar.NavBarItem();
-            this.navbarQLKH_Thoat = new DevExpress.XtraNavBar.NavBarItem();
-            this.txtQLKH_CMND = new DevExpress.XtraEditors.TextEdit();
-            this.gridctrl_QLKH = new DevExpress.XtraGrid.GridControl();
-            this.grvwControlCustommer = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.grctrl_QLKH = new DevExpress.XtraEditors.GroupControl();
-            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.cardView1 = new DevExpress.XtraGrid.Views.Card.CardView();
+            this.grctrlQLKH = new DevExpress.XtraGrid.GridControl();
+            this.grvwQLKH = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.colCMND = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colTenKH = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colDiaChi = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colSDT = new DevExpress.XtraGrid.Columns.GridColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.txtQLKH_Ten.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtQLKH_SDT.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtQLKH_DiaChi.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nvbrctrControl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtQLKH_CMND.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridctrl_QLKH)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grvwControlCustommer)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grctrl_QLKH)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
+            this.layoutView1 = new DevExpress.XtraGrid.Views.Layout.LayoutView();
+            this.layoutViewCard1 = new DevExpress.XtraGrid.Views.Layout.LayoutViewCard();
+            this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
+            this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
+            this.panelControl3 = new DevExpress.XtraEditors.PanelControl();
+            ((System.ComponentModel.ISupportInitialize)(this.cardView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grctrlQLKH)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grvwQLKH)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutViewCard1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).BeginInit();
+            this.panelControl3.SuspendLayout();
             this.SuspendLayout();
             // 
-            // txtQLKH_Ten
+            // cardView1
             // 
-            this.txtQLKH_Ten.Location = new System.Drawing.Point(168, 163);
-            this.txtQLKH_Ten.Name = "txtQLKH_Ten";
-            this.txtQLKH_Ten.Size = new System.Drawing.Size(163, 20);
-            this.txtQLKH_Ten.TabIndex = 1;
-            this.txtQLKH_Ten.EditValueChanged += new System.EventHandler(this.txtTenKhachHang_EditValueChanged);
+            this.cardView1.FocusedCardTopFieldIndex = 0;
+            this.cardView1.GridControl = this.grctrlQLKH;
+            this.cardView1.Name = "cardView1";
+            this.cardView1.VertScrollVisibility = DevExpress.XtraGrid.Views.Base.ScrollVisibility.Auto;
             // 
-            // lbCMND
+            // grctrlQLKH
             // 
-            this.lbCMND.AutoSize = true;
-            this.lbCMND.Location = new System.Drawing.Point(168, 94);
-            this.lbCMND.Name = "lbCMND";
-            this.lbCMND.Size = new System.Drawing.Size(139, 13);
-            this.lbCMND.TabIndex = 2;
-            this.lbCMND.Text = "Nhập chứng minh nhân dân";
-            this.lbCMND.Click += new System.EventHandler(this.label1_Click);
+            this.grctrlQLKH.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.grctrlQLKH.Location = new System.Drawing.Point(2, 2);
+            this.grctrlQLKH.MainView = this.grvwQLKH;
+            this.grctrlQLKH.Name = "grctrlQLKH";
+            this.grctrlQLKH.Size = new System.Drawing.Size(405, 364);
+            this.grctrlQLKH.TabIndex = 8;
+            this.grctrlQLKH.TabStop = false;
+            this.grctrlQLKH.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.grvwQLKH,
+            this.layoutView1,
+            this.cardView1});
             // 
-            // label2
+            // grvwQLKH
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(168, 141);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(114, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Nhập tên khách  hàng";
-            this.label2.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // txtQLKH_SDT
-            // 
-            this.txtQLKH_SDT.Location = new System.Drawing.Point(408, 113);
-            this.txtQLKH_SDT.Name = "txtQLKH_SDT";
-            this.txtQLKH_SDT.Size = new System.Drawing.Size(163, 20);
-            this.txtQLKH_SDT.TabIndex = 1;
-            this.txtQLKH_SDT.EditValueChanged += new System.EventHandler(this.txtSoDT_EditValueChanged);
-            // 
-            // txtQLKH_DiaChi
-            // 
-            this.txtQLKH_DiaChi.Location = new System.Drawing.Point(408, 163);
-            this.txtQLKH_DiaChi.Name = "txtQLKH_DiaChi";
-            this.txtQLKH_DiaChi.Size = new System.Drawing.Size(163, 20);
-            this.txtQLKH_DiaChi.TabIndex = 1;
-            this.txtQLKH_DiaChi.EditValueChanged += new System.EventHandler(this.txtDiaChi_EditValueChanged);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(408, 141);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(68, 13);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "Nhập địa chỉ";
-            this.label5.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(408, 94);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(97, 13);
-            this.label6.TabIndex = 2;
-            this.label6.Text = "Nhập số điện thoại";
-            this.label6.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // nvbrctrControl
-            // 
-            this.nvbrctrControl.ActiveGroup = this.navbargrQLKhachHang;
-            this.nvbrctrControl.Dock = System.Windows.Forms.DockStyle.Left;
-            this.nvbrctrControl.Groups.AddRange(new DevExpress.XtraNavBar.NavBarGroup[] {
-            this.navbargrQLKhachHang});
-            this.nvbrctrControl.Items.AddRange(new DevExpress.XtraNavBar.NavBarItem[] {
-            this.navbarQLKH_Sua,
-            this.navbarQLKH_Luu,
-            this.navbarQLKH_Xoa,
-            this.navbarQLKH_Thoat});
-            this.nvbrctrControl.Location = new System.Drawing.Point(0, 0);
-            this.nvbrctrControl.Name = "nvbrctrControl";
-            this.nvbrctrControl.OptionsNavPane.ExpandedWidth = 138;
-            this.nvbrctrControl.Size = new System.Drawing.Size(138, 481);
-            this.nvbrctrControl.TabIndex = 4;
-            this.nvbrctrControl.Text = "navBarControl1";
-            this.nvbrctrControl.Click += new System.EventHandler(this.navBarControl1_Click);
-            // 
-            // navbargrQLKhachHang
-            // 
-            this.navbargrQLKhachHang.Caption = "Quản lý khách hàng";
-            this.navbargrQLKhachHang.Expanded = true;
-            this.navbargrQLKhachHang.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
-            new DevExpress.XtraNavBar.NavBarItemLink(this.navbarQLKH_Sua),
-            new DevExpress.XtraNavBar.NavBarItemLink(this.navbarQLKH_Luu),
-            new DevExpress.XtraNavBar.NavBarItemLink(this.navbarQLKH_Xoa),
-            new DevExpress.XtraNavBar.NavBarItemLink(this.navbarQLKH_Thoat)});
-            this.navbargrQLKhachHang.Name = "navbargrQLKhachHang";
-            // 
-            // navbarQLKH_Sua
-            // 
-            this.navbarQLKH_Sua.Caption = "Sửa thông tin";
-            this.navbarQLKH_Sua.Name = "navbarQLKH_Sua";
-            // 
-            // navbarQLKH_Luu
-            // 
-            this.navbarQLKH_Luu.Caption = "Lưu thông tin";
-            this.navbarQLKH_Luu.Name = "navbarQLKH_Luu";
-            // 
-            // navbarQLKH_Xoa
-            // 
-            this.navbarQLKH_Xoa.Caption = "Xóa khách hàng";
-            this.navbarQLKH_Xoa.Name = "navbarQLKH_Xoa";
-            // 
-            // navbarQLKH_Thoat
-            // 
-            this.navbarQLKH_Thoat.Caption = "Thoát";
-            this.navbarQLKH_Thoat.Name = "navbarQLKH_Thoat";
-            // 
-            // txtQLKH_CMND
-            // 
-            this.txtQLKH_CMND.Location = new System.Drawing.Point(168, 113);
-            this.txtQLKH_CMND.Name = "txtQLKH_CMND";
-            this.txtQLKH_CMND.Size = new System.Drawing.Size(163, 20);
-            this.txtQLKH_CMND.TabIndex = 5;
-            // 
-            // gridctrl_QLKH
-            // 
-            this.gridctrl_QLKH.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.gridctrl_QLKH.DataSource = this.bindingSource1;
-            this.gridctrl_QLKH.Location = new System.Drawing.Point(150, 239);
-            this.gridctrl_QLKH.MainView = this.grvwControlCustommer;
-            this.gridctrl_QLKH.Name = "gridctrl_QLKH";
-            this.gridctrl_QLKH.Size = new System.Drawing.Size(437, 242);
-            this.gridctrl_QLKH.TabIndex = 6;
-            this.gridctrl_QLKH.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.grvwControlCustommer});
-            // 
-            // grvwControlCustommer
-            // 
-            this.grvwControlCustommer.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.grvwQLKH.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.colCMND,
             this.colTenKH,
             this.colDiaChi,
             this.colSDT});
-            this.grvwControlCustommer.GridControl = this.gridctrl_QLKH;
-            this.grvwControlCustommer.Name = "grvwControlCustommer";
-            // 
-            // grctrl_QLKH
-            // 
-            this.grctrl_QLKH.Location = new System.Drawing.Point(150, 3);
-            this.grctrl_QLKH.Name = "grctrl_QLKH";
-            this.grctrl_QLKH.Size = new System.Drawing.Size(437, 230);
-            this.grctrl_QLKH.TabIndex = 7;
-            this.grctrl_QLKH.Text = "thêm khách hàng mới";
-            // 
-            // bindingSource1
-            // 
-            this.bindingSource1.DataSource = typeof(DAL.KHACH);
+            this.grvwQLKH.CustomizationFormBounds = new System.Drawing.Rectangle(427, 430, 210, 172);
+            this.grvwQLKH.GridControl = this.grctrlQLKH;
+            this.grvwQLKH.Name = "grvwQLKH";
+            this.grvwQLKH.OptionsView.ShowFooter = true;
             // 
             // colCMND
             // 
@@ -245,61 +111,79 @@
             this.colSDT.Name = "colSDT";
             this.colSDT.Visible = true;
             this.colSDT.VisibleIndex = 3;
+            this.colSDT.Width = 83;
+            // 
+            // layoutView1
+            // 
+            this.layoutView1.GridControl = this.grctrlQLKH;
+            this.layoutView1.Name = "layoutView1";
+            this.layoutView1.TemplateCard = this.layoutViewCard1;
+            // 
+            // layoutViewCard1
+            // 
+            this.layoutViewCard1.ExpandButtonLocation = DevExpress.Utils.GroupElementLocation.AfterText;
+            this.layoutViewCard1.Name = "layoutViewCard1";
+            // 
+            // panelControl1
+            // 
+            this.panelControl1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panelControl1.Location = new System.Drawing.Point(0, 0);
+            this.panelControl1.Name = "panelControl1";
+            this.panelControl1.Size = new System.Drawing.Size(256, 530);
+            this.panelControl1.TabIndex = 9;
+            // 
+            // panelControl2
+            // 
+            this.panelControl2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelControl2.Location = new System.Drawing.Point(256, 0);
+            this.panelControl2.Name = "panelControl2";
+            this.panelControl2.Size = new System.Drawing.Size(409, 162);
+            this.panelControl2.TabIndex = 10;
+            // 
+            // panelControl3
+            // 
+            this.panelControl3.Controls.Add(this.grctrlQLKH);
+            this.panelControl3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelControl3.Location = new System.Drawing.Point(256, 162);
+            this.panelControl3.Name = "panelControl3";
+            this.panelControl3.Size = new System.Drawing.Size(409, 368);
+            this.panelControl3.TabIndex = 11;
             // 
             // ucQLKhachHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.txtQLKH_CMND);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.lbCMND);
-            this.Controls.Add(this.txtQLKH_DiaChi);
-            this.Controls.Add(this.txtQLKH_SDT);
-            this.Controls.Add(this.txtQLKH_Ten);
-            this.Controls.Add(this.gridctrl_QLKH);
-            this.Controls.Add(this.nvbrctrControl);
-            this.Controls.Add(this.grctrl_QLKH);
+            this.Controls.Add(this.panelControl3);
+            this.Controls.Add(this.panelControl2);
+            this.Controls.Add(this.panelControl1);
             this.Name = "ucQLKhachHang";
-            this.Size = new System.Drawing.Size(590, 481);
+            this.Size = new System.Drawing.Size(665, 530);
             this.Load += new System.EventHandler(this.ucQLKhachHang_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.txtQLKH_Ten.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtQLKH_SDT.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtQLKH_DiaChi.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nvbrctrControl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtQLKH_CMND.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridctrl_QLKH)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grvwControlCustommer)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grctrl_QLKH)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cardView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grctrlQLKH)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grvwQLKH)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutViewCard1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).EndInit();
+            this.panelControl3.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-        private DevExpress.XtraEditors.TextEdit txtQLKH_Ten;
-        private System.Windows.Forms.Label lbCMND;
-        private System.Windows.Forms.Label label2;
-        private DevExpress.XtraEditors.TextEdit txtQLKH_SDT;
-        private DevExpress.XtraEditors.TextEdit txtQLKH_DiaChi;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private DevExpress.XtraNavBar.NavBarControl nvbrctrControl;
-        private DevExpress.XtraNavBar.NavBarGroup navbargrQLKhachHang;
-        private DevExpress.XtraNavBar.NavBarItem navbarQLKH_Sua;
-        private DevExpress.XtraNavBar.NavBarItem navbarQLKH_Luu;
-        private DevExpress.XtraNavBar.NavBarItem navbarQLKH_Xoa;
-        private DevExpress.XtraNavBar.NavBarItem navbarQLKH_Thoat;
-        private DevExpress.XtraEditors.TextEdit txtQLKH_CMND;
-        private DevExpress.XtraGrid.GridControl gridctrl_QLKH;
-        private DevExpress.XtraGrid.Views.Grid.GridView grvwControlCustommer;
-        private DevExpress.XtraEditors.GroupControl grctrl_QLKH;
-        private System.Windows.Forms.BindingSource bindingSource1;
+        private DevExpress.XtraGrid.GridControl grctrlQLKH;
+        private DevExpress.XtraGrid.Views.Grid.GridView grvwQLKH;
         private DevExpress.XtraGrid.Columns.GridColumn colCMND;
         private DevExpress.XtraGrid.Columns.GridColumn colTenKH;
         private DevExpress.XtraGrid.Columns.GridColumn colDiaChi;
         private DevExpress.XtraGrid.Columns.GridColumn colSDT;
+        private DevExpress.XtraGrid.Views.Card.CardView cardView1;
+        private DevExpress.XtraGrid.Views.Layout.LayoutView layoutView1;
+        private DevExpress.XtraGrid.Views.Layout.LayoutViewCard layoutViewCard1;
+        private DevExpress.XtraEditors.PanelControl panelControl1;
+        private DevExpress.XtraEditors.PanelControl panelControl2;
+        private DevExpress.XtraEditors.PanelControl panelControl3;
     }
 }

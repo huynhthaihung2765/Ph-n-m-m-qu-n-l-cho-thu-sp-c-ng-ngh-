@@ -43,8 +43,8 @@
             this.navbarQLSP_Thoat = new DevExpress.XtraNavBar.NavBarItem();
             this.navbarPhuKien = new DevExpress.XtraNavBar.NavBarItem();
             this.grctrl_QLSP = new DevExpress.XtraGrid.GridControl();
-            this.grvwQLSP = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.grvwQLSP = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.colMaSP = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colTenSP = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colMoTa = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -60,8 +60,8 @@
             this.colLOAISP = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.navBarControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grctrl_QLSP)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grvwQLSP)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grvwQLSP)).BeginInit();
             this.SuspendLayout();
             // 
             // navBarControl1
@@ -164,7 +164,6 @@
             // 
             // grctrl_QLSP
             // 
-            this.grctrl_QLSP.DataSource = this.bindingSource1;
             this.grctrl_QLSP.Dock = System.Windows.Forms.DockStyle.Fill;
             this.grctrl_QLSP.Location = new System.Drawing.Point(184, 0);
             this.grctrl_QLSP.MainView = this.grvwQLSP;
@@ -173,6 +172,10 @@
             this.grctrl_QLSP.TabIndex = 1;
             this.grctrl_QLSP.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.grvwQLSP});
+            // 
+            // bindingSource1
+            // 
+            this.bindingSource1.DataSource = typeof(DAL.SANPHAM);
             // 
             // grvwQLSP
             // 
@@ -192,10 +195,8 @@
             this.colLOAISP});
             this.grvwQLSP.GridControl = this.grctrl_QLSP;
             this.grvwQLSP.Name = "grvwQLSP";
-            // 
-            // bindingSource1
-            // 
-            this.bindingSource1.DataSource = typeof(DAL.SANPHAM);
+            this.grvwQLSP.OptionsView.ShowFooter = true;
+            this.grvwQLSP.OptionsView.ShowGroupPanel = false;
             // 
             // colMaSP
             // 
@@ -299,8 +300,8 @@
             this.Load += new System.EventHandler(this.ucQLSanPham_Load);
             ((System.ComponentModel.ISupportInitialize)(this.navBarControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.grctrl_QLSP)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grvwQLSP)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grvwQLSP)).EndInit();
             this.ResumeLayout(false);
 
         }
