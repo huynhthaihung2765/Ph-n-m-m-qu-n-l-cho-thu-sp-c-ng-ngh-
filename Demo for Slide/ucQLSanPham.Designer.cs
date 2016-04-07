@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.navBarControl1 = new DevExpress.XtraNavBar.NavBarControl();
             this.navbargrQLSanPham = new DevExpress.XtraNavBar.NavBarGroup();
             this.navbarQLLaptop = new DevExpress.XtraNavBar.NavBarItem();
@@ -43,9 +44,24 @@
             this.navbarPhuKien = new DevExpress.XtraNavBar.NavBarItem();
             this.grctrl_QLSP = new DevExpress.XtraGrid.GridControl();
             this.grvwQLSP = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.colMaSP = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colTenSP = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colMoTa = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colTinhTrang = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colMaLoaiSP = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colManHinh = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colRam = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colBoXuLy = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colDoHoa = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colNhaSX = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colGiaThue = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colSoLuong = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colLOAISP = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.navBarControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grctrl_QLSP)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grvwQLSP)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // navBarControl1
@@ -148,6 +164,7 @@
             // 
             // grctrl_QLSP
             // 
+            this.grctrl_QLSP.DataSource = this.bindingSource1;
             this.grctrl_QLSP.Dock = System.Windows.Forms.DockStyle.Fill;
             this.grctrl_QLSP.Location = new System.Drawing.Point(184, 0);
             this.grctrl_QLSP.MainView = this.grvwQLSP;
@@ -159,8 +176,117 @@
             // 
             // grvwQLSP
             // 
+            this.grvwQLSP.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.colMaSP,
+            this.colTenSP,
+            this.colMoTa,
+            this.colTinhTrang,
+            this.colMaLoaiSP,
+            this.colManHinh,
+            this.colRam,
+            this.colBoXuLy,
+            this.colDoHoa,
+            this.colNhaSX,
+            this.colGiaThue,
+            this.colSoLuong,
+            this.colLOAISP});
             this.grvwQLSP.GridControl = this.grctrl_QLSP;
             this.grvwQLSP.Name = "grvwQLSP";
+            // 
+            // bindingSource1
+            // 
+            this.bindingSource1.DataSource = typeof(DAL.SANPHAM);
+            // 
+            // colMaSP
+            // 
+            this.colMaSP.FieldName = "MaSP";
+            this.colMaSP.Name = "colMaSP";
+            this.colMaSP.Visible = true;
+            this.colMaSP.VisibleIndex = 0;
+            // 
+            // colTenSP
+            // 
+            this.colTenSP.FieldName = "TenSP";
+            this.colTenSP.Name = "colTenSP";
+            this.colTenSP.Visible = true;
+            this.colTenSP.VisibleIndex = 1;
+            // 
+            // colMoTa
+            // 
+            this.colMoTa.FieldName = "MoTa";
+            this.colMoTa.Name = "colMoTa";
+            this.colMoTa.Visible = true;
+            this.colMoTa.VisibleIndex = 2;
+            // 
+            // colTinhTrang
+            // 
+            this.colTinhTrang.FieldName = "TinhTrang";
+            this.colTinhTrang.Name = "colTinhTrang";
+            this.colTinhTrang.Visible = true;
+            this.colTinhTrang.VisibleIndex = 3;
+            // 
+            // colMaLoaiSP
+            // 
+            this.colMaLoaiSP.FieldName = "MaLoaiSP";
+            this.colMaLoaiSP.Name = "colMaLoaiSP";
+            this.colMaLoaiSP.Visible = true;
+            this.colMaLoaiSP.VisibleIndex = 4;
+            // 
+            // colManHinh
+            // 
+            this.colManHinh.FieldName = "ManHinh";
+            this.colManHinh.Name = "colManHinh";
+            this.colManHinh.Visible = true;
+            this.colManHinh.VisibleIndex = 5;
+            // 
+            // colRam
+            // 
+            this.colRam.FieldName = "Ram";
+            this.colRam.Name = "colRam";
+            this.colRam.Visible = true;
+            this.colRam.VisibleIndex = 6;
+            // 
+            // colBoXuLy
+            // 
+            this.colBoXuLy.FieldName = "BoXuLy";
+            this.colBoXuLy.Name = "colBoXuLy";
+            this.colBoXuLy.Visible = true;
+            this.colBoXuLy.VisibleIndex = 7;
+            // 
+            // colDoHoa
+            // 
+            this.colDoHoa.FieldName = "DoHoa";
+            this.colDoHoa.Name = "colDoHoa";
+            this.colDoHoa.Visible = true;
+            this.colDoHoa.VisibleIndex = 8;
+            // 
+            // colNhaSX
+            // 
+            this.colNhaSX.FieldName = "NhaSX";
+            this.colNhaSX.Name = "colNhaSX";
+            this.colNhaSX.Visible = true;
+            this.colNhaSX.VisibleIndex = 9;
+            // 
+            // colGiaThue
+            // 
+            this.colGiaThue.FieldName = "GiaThue";
+            this.colGiaThue.Name = "colGiaThue";
+            this.colGiaThue.Visible = true;
+            this.colGiaThue.VisibleIndex = 10;
+            // 
+            // colSoLuong
+            // 
+            this.colSoLuong.FieldName = "SoLuong";
+            this.colSoLuong.Name = "colSoLuong";
+            this.colSoLuong.Visible = true;
+            this.colSoLuong.VisibleIndex = 11;
+            // 
+            // colLOAISP
+            // 
+            this.colLOAISP.FieldName = "LOAISP";
+            this.colLOAISP.Name = "colLOAISP";
+            this.colLOAISP.Visible = true;
+            this.colLOAISP.VisibleIndex = 12;
             // 
             // ucQLSanPham
             // 
@@ -174,6 +300,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.navBarControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.grctrl_QLSP)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.grvwQLSP)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -195,5 +322,19 @@
         private DevExpress.XtraNavBar.NavBarItem navbarQLSP_Thoat;
         private DevExpress.XtraGrid.GridControl grctrl_QLSP;
         private DevExpress.XtraGrid.Views.Grid.GridView grvwQLSP;
+        private System.Windows.Forms.BindingSource bindingSource1;
+        private DevExpress.XtraGrid.Columns.GridColumn colMaSP;
+        private DevExpress.XtraGrid.Columns.GridColumn colTenSP;
+        private DevExpress.XtraGrid.Columns.GridColumn colMoTa;
+        private DevExpress.XtraGrid.Columns.GridColumn colTinhTrang;
+        private DevExpress.XtraGrid.Columns.GridColumn colMaLoaiSP;
+        private DevExpress.XtraGrid.Columns.GridColumn colManHinh;
+        private DevExpress.XtraGrid.Columns.GridColumn colRam;
+        private DevExpress.XtraGrid.Columns.GridColumn colBoXuLy;
+        private DevExpress.XtraGrid.Columns.GridColumn colDoHoa;
+        private DevExpress.XtraGrid.Columns.GridColumn colNhaSX;
+        private DevExpress.XtraGrid.Columns.GridColumn colGiaThue;
+        private DevExpress.XtraGrid.Columns.GridColumn colSoLuong;
+        private DevExpress.XtraGrid.Columns.GridColumn colLOAISP;
     }
 }

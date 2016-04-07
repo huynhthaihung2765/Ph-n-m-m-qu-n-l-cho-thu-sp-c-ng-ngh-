@@ -66,7 +66,7 @@ namespace DAL
     #endregion
 		
 		public QLSPCNDataContext() : 
-				base(global::DAL.Properties.Settings.Default.QLSPCNConnectionString, mappingSource)
+				base(global::DAL.Properties.Settings.Default.QLSPCNConnectionString1, mappingSource)
 		{
 			OnCreated();
 		}

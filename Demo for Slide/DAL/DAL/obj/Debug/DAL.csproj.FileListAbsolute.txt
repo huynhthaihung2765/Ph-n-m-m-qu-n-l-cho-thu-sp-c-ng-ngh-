@@ -19,3 +19,8 @@ E:\HocTap\DOAN thay Phet\Demo for Slide\DAL\DAL\obj\Debug\DAL.dll
 E:\HocTap\DOAN thay Phet\Demo for Slide\DAL\DAL\obj\Debug\DAL.pdb
 E:\HocTap\DOAN thay Phet\Demo for Slide\DAL\DAL\bin\Debug\DAL.dll.config
 E:\HocTap\DOAN thay Phet\Demo for Slide\DAL\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Hutech\DoAnThayPhet\Demo for Slide\DAL\DAL\bin\Debug\DAL.dll.config
+D:\Hutech\DoAnThayPhet\Demo for Slide\DAL\DAL\bin\Debug\DAL.dll
+D:\Hutech\DoAnThayPhet\Demo for Slide\DAL\DAL\bin\Debug\DAL.pdb
+D:\Hutech\DoAnThayPhet\Demo for Slide\DAL\DAL\obj\Debug\DAL.dll
+D:\Hutech\DoAnThayPhet\Demo for Slide\DAL\DAL\obj\Debug\DAL.pdb

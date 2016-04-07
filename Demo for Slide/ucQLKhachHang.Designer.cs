@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.txtQLKH_Ten = new DevExpress.XtraEditors.TextEdit();
             this.lbCMND = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -45,6 +46,11 @@
             this.gridctrl_QLKH = new DevExpress.XtraGrid.GridControl();
             this.grvwControlCustommer = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.grctrl_QLKH = new DevExpress.XtraEditors.GroupControl();
+            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.colCMND = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colTenKH = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colDiaChi = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colSDT = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.txtQLKH_Ten.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtQLKH_SDT.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtQLKH_DiaChi.Properties)).BeginInit();
@@ -53,6 +59,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridctrl_QLKH)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grvwControlCustommer)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grctrl_QLKH)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // txtQLKH_Ten
@@ -180,6 +187,7 @@
             // 
             this.gridctrl_QLKH.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.gridctrl_QLKH.DataSource = this.bindingSource1;
             this.gridctrl_QLKH.Location = new System.Drawing.Point(150, 239);
             this.gridctrl_QLKH.MainView = this.grvwControlCustommer;
             this.gridctrl_QLKH.Name = "gridctrl_QLKH";
@@ -190,6 +198,11 @@
             // 
             // grvwControlCustommer
             // 
+            this.grvwControlCustommer.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.colCMND,
+            this.colTenKH,
+            this.colDiaChi,
+            this.colSDT});
             this.grvwControlCustommer.GridControl = this.gridctrl_QLKH;
             this.grvwControlCustommer.Name = "grvwControlCustommer";
             // 
@@ -200,6 +213,38 @@
             this.grctrl_QLKH.Size = new System.Drawing.Size(437, 230);
             this.grctrl_QLKH.TabIndex = 7;
             this.grctrl_QLKH.Text = "thêm khách hàng mới";
+            // 
+            // bindingSource1
+            // 
+            this.bindingSource1.DataSource = typeof(DAL.KHACH);
+            // 
+            // colCMND
+            // 
+            this.colCMND.FieldName = "CMND";
+            this.colCMND.Name = "colCMND";
+            this.colCMND.Visible = true;
+            this.colCMND.VisibleIndex = 0;
+            // 
+            // colTenKH
+            // 
+            this.colTenKH.FieldName = "TenKH";
+            this.colTenKH.Name = "colTenKH";
+            this.colTenKH.Visible = true;
+            this.colTenKH.VisibleIndex = 1;
+            // 
+            // colDiaChi
+            // 
+            this.colDiaChi.FieldName = "DiaChi";
+            this.colDiaChi.Name = "colDiaChi";
+            this.colDiaChi.Visible = true;
+            this.colDiaChi.VisibleIndex = 2;
+            // 
+            // colSDT
+            // 
+            this.colSDT.FieldName = "SDT";
+            this.colSDT.Name = "colSDT";
+            this.colSDT.Visible = true;
+            this.colSDT.VisibleIndex = 3;
             // 
             // ucQLKhachHang
             // 
@@ -227,6 +272,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridctrl_QLKH)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.grvwControlCustommer)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.grctrl_QLKH)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -250,5 +296,10 @@
         private DevExpress.XtraGrid.GridControl gridctrl_QLKH;
         private DevExpress.XtraGrid.Views.Grid.GridView grvwControlCustommer;
         private DevExpress.XtraEditors.GroupControl grctrl_QLKH;
+        private System.Windows.Forms.BindingSource bindingSource1;
+        private DevExpress.XtraGrid.Columns.GridColumn colCMND;
+        private DevExpress.XtraGrid.Columns.GridColumn colTenKH;
+        private DevExpress.XtraGrid.Columns.GridColumn colDiaChi;
+        private DevExpress.XtraGrid.Columns.GridColumn colSDT;
     }
 }

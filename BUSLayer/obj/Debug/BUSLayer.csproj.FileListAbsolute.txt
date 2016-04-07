@@ -26,3 +26,10 @@ E:\HocTap\DOAN thay Phet\BUSLayer\bin\Debug\DAL.pdb
 E:\HocTap\DOAN thay Phet\BUSLayer\obj\Debug\BUSLayer.csprojResolveAssemblyReference.cache
 E:\HocTap\DOAN thay Phet\BUSLayer\obj\Debug\BUSLayer.dll
 E:\HocTap\DOAN thay Phet\BUSLayer\obj\Debug\BUSLayer.pdb
+D:\Hutech\DoAnThayPhet\BUSLayer\bin\Debug\BUSLayer.dll
+D:\Hutech\DoAnThayPhet\BUSLayer\bin\Debug\BUSLayer.pdb
+D:\Hutech\DoAnThayPhet\BUSLayer\bin\Debug\DAL.dll
+D:\Hutech\DoAnThayPhet\BUSLayer\bin\Debug\DAL.pdb
+D:\Hutech\DoAnThayPhet\BUSLayer\obj\Debug\BUSLayer.csprojResolveAssemblyReference.cache
+D:\Hutech\DoAnThayPhet\BUSLayer\obj\Debug\BUSLayer.dll
+D:\Hutech\DoAnThayPhet\BUSLayer\obj\Debug\BUSLayer.pdb

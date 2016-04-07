@@ -32,5 +32,15 @@ namespace DAL.Properties {
                 return ((string)(this["QLSPCNConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.;Initial Catalog=QLSPCN;Integrated Security=True")]
+        public string QLSPCNConnectionString1 {
+            get {
+                return ((string)(this["QLSPCNConnectionString1"]));
+            }
+        }
     }
 }
