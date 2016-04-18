@@ -10,11 +10,31 @@ using System.Windows.Forms;
 using BUSLayer;
 using DAL;
 using DevExpress.XtraEditors;
+using DevExpress.XtraEditors.Controls;
 
 namespace Demo
 {
     public partial class frmChinh : DevExpress.XtraBars.Ribbon.RibbonForm
     {
+        
+
+        ucHTHuongDanSuDung hdsd = new ucHTHuongDanSuDung();
+        ucQLSanPham QLSP = new ucQLSanPham();
+        ucQLKhachHang QLKH = new ucQLKhachHang();
+        ucTTTSanPham thongtinthueSP = new ucTTTSanPham();
+        ucTCKhachHang tracuuKH = new ucTCKhachHang();
+        ucTTTKhachHang thongtinthueKH = new ucTTTKhachHang();
+        ucTCHoaDon tracuuHD = new ucTCHoaDon();
+        ucTCSanPham tracuuSP = new ucTCSanPham();
+        ucBCSanPham baocaoSP = new ucBCSanPham();
+        ucBCKhachHang baocaoKH = new ucBCKhachHang();
+        ucBCDoanhThu baocaoDT = new ucBCDoanhThu();
+        ucBCMayHu baocaoMH = new ucBCMayHu();
+        frmDoiMatKhau frmDoiMatKhau = new frmDoiMatKhau();
+        frmDangKy frmDangKy = new frmDangKy();
+
+        int thoigiancho = 5;
+
         public frmChinh()
         {
             InitializeComponent();
@@ -23,12 +43,18 @@ namespace Demo
             DevExpress.XtraBars.Helpers.SkinHelper.InitSkinGallery(galleryThames, true, false);
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        public void Form1_Load(object sender, EventArgs e)
         {
             // TODO: This line of code loads data into the 'qLSPDataSet1.NHANVIEN' table. You can move, or remove it, as needed.
-          //  this.nHANVIENTableAdapter.Fill(this.qLSPDataSet1.NHANVIEN);
+            //  this.nHANVIENTableAdapter.Fill(this.qLSPDataSet1.NHANVIEN);
 
+            Localizer.Active = new showMessageBox("&hủy bỏ", "&Hủy", "&Chấp nhận", "&Không", "&Được", "&Thử lại", "&Đồng ý");
+            this.Enabled = false;
 
+           
+
+            frmPreLoad formPreload = new frmPreLoad();
+            formPreload.Show();
         }
 
         private void gridControl1_Click(object sender, EventArgs e)
@@ -44,7 +70,6 @@ namespace Demo
         private void barButtonItem3_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             pncntr.Controls.Clear();
-            ucHTHuongDanSuDung hdsd = new ucHTHuongDanSuDung();
             hdsd.Dock = DockStyle.Fill;
             pncntr.Controls.Add(hdsd);
         }
@@ -52,15 +77,22 @@ namespace Demo
         private void btQLSanPham_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             pncntr.Controls.Clear();
-            ucQLSanPham QLSP = new ucQLSanPham();
+            frmPreLoad formPreLoad = new frmPreLoad();
+            formPreLoad.thoigianhienthi = 10;
+            formPreLoad.Show();
             QLSP.Dock = DockStyle.Fill;
             pncntr.Controls.Add(QLSP);
+            QLSP.Visible = true;
+
+            
         }
 
         private void btQLKhachHang_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             pncntr.Controls.Clear();
-            ucQLKhachHang QLKH = new ucQLKhachHang();
+            frmPreLoad formPreLoad = new frmPreLoad();
+            formPreLoad.thoigianhienthi = 10;
+            formPreLoad.Show();
             QLKH.Dock = DockStyle.Fill;
             pncntr.Controls.Add(QLKH);
         }
@@ -68,7 +100,9 @@ namespace Demo
         private void btTTTSanPham_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             pncntr.Controls.Clear();
-            ucTTTSanPham thongtinthueSP = new ucTTTSanPham();
+            frmPreLoad formPreLoad = new frmPreLoad();
+            formPreLoad.thoigianhienthi = 10;
+            formPreLoad.Show();
             thongtinthueSP.Dock = DockStyle.Fill;
             pncntr.Controls.Add(thongtinthueSP);
         }
@@ -76,7 +110,9 @@ namespace Demo
         private void btTTTKhachHang_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             pncntr.Controls.Clear();
-            ucTTTKhachHang thongtinthueKH = new ucTTTKhachHang();
+            frmPreLoad formPreLoad = new frmPreLoad();
+            formPreLoad.thoigianhienthi = 10;
+            formPreLoad.Show();
             thongtinthueKH.Dock = DockStyle.Fill;
             pncntr.Controls.Add(thongtinthueKH);
         }
@@ -88,7 +124,9 @@ namespace Demo
         private void btTCKhachHang_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             pncntr.Controls.Clear();
-            ucTCKhachHang tracuuKH = new ucTCKhachHang();
+            frmPreLoad formPreLoad = new frmPreLoad();
+            formPreLoad.thoigianhienthi = 10;
+            formPreLoad.Show();
             tracuuKH.Dock = DockStyle.Fill;
             pncntr.Controls.Add(tracuuKH);
         }
@@ -96,7 +134,9 @@ namespace Demo
         private void btHoaDon_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             pncntr.Controls.Clear();
-            ucTCHoaDon tracuuHD = new ucTCHoaDon();
+            frmPreLoad formPreLoad = new frmPreLoad();
+            formPreLoad.thoigianhienthi = 10;
+            formPreLoad.Show();
             tracuuHD.Dock = DockStyle.Fill;
             pncntr.Controls.Add(tracuuHD);
         }
@@ -104,7 +144,9 @@ namespace Demo
         private void btTCSanPham_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             pncntr.Controls.Clear();
-            ucTCSanPham tracuuSP = new ucTCSanPham();
+            frmPreLoad formPreLoad = new frmPreLoad();
+            formPreLoad.thoigianhienthi = 10;
+            formPreLoad.Show();
             tracuuSP.Dock = DockStyle.Fill;
             pncntr.Controls.Add(tracuuSP);
         }
@@ -112,7 +154,9 @@ namespace Demo
         private void btBCKhachHang_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             pncntr.Controls.Clear();
-            ucBCKhachHang baocaoKH = new ucBCKhachHang();
+            frmPreLoad formPreLoad = new frmPreLoad();
+            formPreLoad.thoigianhienthi = 10;
+            formPreLoad.Show();
             baocaoKH.Dock = DockStyle.Fill;
             pncntr.Controls.Add(baocaoKH);
         }
@@ -120,7 +164,9 @@ namespace Demo
         private void btBCSanPham_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             pncntr.Controls.Clear();
-            ucBCSanPham baocaoSP = new ucBCSanPham();
+            frmPreLoad formPreLoad = new frmPreLoad();
+            formPreLoad.thoigianhienthi = 10;
+            formPreLoad.Show();
             baocaoSP.Dock = DockStyle.Fill;
             pncntr.Controls.Add(baocaoSP);
         }
@@ -128,7 +174,9 @@ namespace Demo
         private void btBCDoanhThu_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             pncntr.Controls.Clear();
-            ucBCDoanhThu baocaoDT = new ucBCDoanhThu();
+            frmPreLoad formPreLoad = new frmPreLoad();
+            formPreLoad.thoigianhienthi = 10;
+            formPreLoad.Show();
             baocaoDT.Dock = DockStyle.Fill;
             pncntr.Controls.Add(baocaoDT);
         }
@@ -136,7 +184,9 @@ namespace Demo
         private void btBCMayHu_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             pncntr.Controls.Clear();
-            ucBCMayHu baocaoMH = new ucBCMayHu();
+            frmPreLoad formPreLoad = new frmPreLoad();
+            formPreLoad.thoigianhienthi = 10;
+            formPreLoad.Show();
             baocaoMH.Dock = DockStyle.Fill;
             pncntr.Controls.Add(baocaoMH);
         }
@@ -146,9 +196,9 @@ namespace Demo
             DialogResult dialog = XtraMessageBox.Show("Bạn thật sự muốn đổi mật khẩu", "Thông báo đăng xuất", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (dialog == DialogResult.Yes)
             {
-                frmDangNhap frmDN = new frmDangNhap();
-                frmDN.Show();
-                this.Hide();
+                
+                frmDoiMatKhau.Show();
+                this.Enabled = false;
             }
           
         }
@@ -172,9 +222,41 @@ namespace Demo
             DialogResult dialog = XtraMessageBox.Show("Bạn thật sự muốn đăng xuất", "Thông báo đăng xuất",MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if(dialog == DialogResult.Yes)
             {
-                frmDangNhap frmDN = new frmDangNhap();
-                frmDN.Show();
-                this.Hide();
+                frmDangNhap frmDangNhap = new frmDangNhap();
+                frmDangNhap.Show();
+               frmDangNhap.Size = new Size(316, 145);
+                this.Enabled = false;
+            }
+        }
+
+        private void btHTDangKy_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            DialogResult dialog = XtraMessageBox.Show("Bạn muốn đăng ký thành viên mới", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+            if (dialog == DialogResult.Yes)
+            {
+                this.Enabled = false;
+                
+                frmDangKy.Show();
+            }
+        }
+
+        private void ribbonControl1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timer_Tick(object sender, EventArgs e)
+        {
+            if (thoigiancho <= 5 && thoigiancho > 0)
+            {
+                thoigiancho = thoigiancho - 1;
+            }
+            if (thoigiancho == 0)
+            {
+                frmDangNhap frmDangNhap = new frmDangNhap();
+                frmDangNhap.Show();
+                frmDangNhap.Size = new Size(316, 145);
+                timer.Enabled = false;
             }
         }
     }

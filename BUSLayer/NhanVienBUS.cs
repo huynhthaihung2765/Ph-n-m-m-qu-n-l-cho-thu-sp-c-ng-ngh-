@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using DAL;
 
+using System.Data.Linq;
+
 namespace BUSLayer
 {
     public class NhanVienBUS
@@ -29,7 +31,7 @@ namespace BUSLayer
         }
 
         // Dang ky mot nhan vien moi 
-        public void dangKyNhanVien(string tennguoidung, string taikhoan, string matkhau, string email, string diachi, string sodienthoai)
+        public void dangKyNhanVien(string tennguoidung, string taikhoan, string matkhau, string email, string diachi, string sodienthoai, Binary hinhanh)
         {
             NHANVIEN nhanvien = new NHANVIEN();
             nhanvien.HoTen = tennguoidung;
@@ -37,6 +39,7 @@ namespace BUSLayer
             nhanvien.MatKhau = matkhau;
             nhanvien.Email = email;
             nhanvien.SDT = sodienthoai;
+            nhanvien.HinhAnh = hinhanh;
             qlSPCN.NHANVIENs.InsertOnSubmit(nhanvien);
             qlSPCN.SubmitChanges();
         }
@@ -56,6 +59,25 @@ namespace BUSLayer
             else // Thai khan nay co the dung duoc
             {
                 return true;
+            }
+        }
+
+        // Kiem tra viec lay mat khau
+        public bool kiemTraLayMatKhau(string tendangnhap, string email)
+        {
+            // dung linQ dem so luong trung ten dang nhap va email
+            int demnhanvien = (from tk in qlSPCN.NHANVIENs
+                            where tk.TenDangNhap == tendangnhap && tk.Email == email
+                            select tk).Count();
+
+            // chon dung nhan vien can lay mat khau
+            if (demnhanvien == 1)
+            {
+                return true;
+            }
+            else // khong chon dung nhan vien
+            {
+                return false;
             }
         }
 
@@ -84,9 +106,7 @@ namespace BUSLayer
                                     select nv).Single(tk => tk.TenDangNhap == tendangnhap);
 
             suanhanvien.MatKhau = matkhaumoi;
-
             qlSPCN.SubmitChanges();
         }
-
     }
 }

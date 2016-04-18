@@ -35,7 +35,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Name = "ucHTHuongDanSuDung";
-            this.Size = new System.Drawing.Size(536, 430);
+            this.Size = new System.Drawing.Size(955, 540);
             this.ResumeLayout(false);
 
         }

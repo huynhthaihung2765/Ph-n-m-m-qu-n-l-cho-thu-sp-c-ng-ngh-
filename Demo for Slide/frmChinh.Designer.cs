@@ -31,7 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmChinh));
             this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
-            this.btHTDangNhap = new DevExpress.XtraBars.BarButtonItem();
+            this.btHTDangKy = new DevExpress.XtraBars.BarButtonItem();
             this.btHTDangXuat = new DevExpress.XtraBars.BarButtonItem();
             this.btHT_HDSD = new DevExpress.XtraBars.BarButtonItem();
             this.btHTDoiMatKhau = new DevExpress.XtraBars.BarButtonItem();
@@ -65,12 +65,17 @@
             this.applicationMenu1 = new DevExpress.XtraBars.Ribbon.ApplicationMenu(this.components);
             this.nHANVIENBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.pncntr = new DevExpress.XtraEditors.PanelControl();
+            this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
+            this.label1 = new System.Windows.Forms.Label();
             this.btExit = new DevExpress.XtraEditors.SimpleButton();
             this.btMinimize = new DevExpress.XtraEditors.SimpleButton();
+            this.timer = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.applicationMenu1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nHANVIENBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pncntr)).BeginInit();
+            this.pncntr.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // ribbonControl1
@@ -79,7 +84,7 @@
             this.ribbonControl1.ExpandCollapseItem.Id = 0;
             this.ribbonControl1.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
             this.ribbonControl1.ExpandCollapseItem,
-            this.btHTDangNhap,
+            this.btHTDangKy,
             this.btHTDangXuat,
             this.btHT_HDSD,
             this.btHTDoiMatKhau,
@@ -106,14 +111,17 @@
             this.rbpgHotro,
             this.rbpgThietlap});
             this.ribbonControl1.Size = new System.Drawing.Size(680, 179);
+            this.ribbonControl1.Click += new System.EventHandler(this.ribbonControl1_Click);
             // 
-            // btHTDangNhap
+            // btHTDangKy
             // 
-            this.btHTDangNhap.Caption = "Đăng nhập";
-            this.btHTDangNhap.CategoryGuid = new System.Guid("6ffddb2b-9015-4d97-a4c1-91613e0ef537");
-            this.btHTDangNhap.Id = 20;
-            this.btHTDangNhap.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("btHTDangNhap.LargeGlyph")));
-            this.btHTDangNhap.Name = "btHTDangNhap";
+            this.btHTDangKy.Caption = "Đăng ký";
+            this.btHTDangKy.CategoryGuid = new System.Guid("6ffddb2b-9015-4d97-a4c1-91613e0ef537");
+            this.btHTDangKy.Id = 20;
+            this.btHTDangKy.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("btHTDangKy.LargeGlyph")));
+            this.btHTDangKy.LargeWidth = 60;
+            this.btHTDangKy.Name = "btHTDangKy";
+            this.btHTDangKy.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btHTDangKy_ItemClick);
             // 
             // btHTDangXuat
             // 
@@ -268,7 +276,7 @@
             // 
             // rbpggrCauHinh
             // 
-            this.rbpggrCauHinh.ItemLinks.Add(this.btHTDangNhap);
+            this.rbpggrCauHinh.ItemLinks.Add(this.btHTDangKy);
             this.rbpggrCauHinh.ItemLinks.Add(this.btHTDangXuat);
             this.rbpggrCauHinh.ItemLinks.Add(this.btHT_HDSD);
             this.rbpggrCauHinh.Name = "rbpggrCauHinh";
@@ -378,11 +386,39 @@
             // pncntr
             // 
             this.pncntr.AutoSize = true;
+            this.pncntr.Controls.Add(this.pictureEdit1);
+            this.pncntr.Controls.Add(this.label1);
             this.pncntr.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pncntr.Location = new System.Drawing.Point(0, 179);
             this.pncntr.Name = "pncntr";
             this.pncntr.Size = new System.Drawing.Size(680, 252);
             this.pncntr.TabIndex = 4;
+            // 
+            // pictureEdit1
+            // 
+            this.pictureEdit1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureEdit1.EditValue = global::Demo.Properties.Resources._1212011_55035_PMlaptoplon;
+            this.pictureEdit1.Location = new System.Drawing.Point(5, 62);
+            this.pictureEdit1.MenuManager = this.ribbonControl1;
+            this.pictureEdit1.Name = "pictureEdit1";
+            this.pictureEdit1.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
+            this.pictureEdit1.Size = new System.Drawing.Size(656, 178);
+            this.pictureEdit1.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(204, 12);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(350, 26);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "TRUNG TÂM CHO THUÊ LAPTOP KHACP";
             // 
             // btExit
             // 
@@ -404,6 +440,12 @@
             this.btMinimize.Text = "Thu nhỏ";
             this.btMinimize.Click += new System.EventHandler(this.btMinimize_Click);
             // 
+            // timer
+            // 
+            this.timer.Enabled = true;
+            this.timer.Interval = 1000;
+            this.timer.Tick += new System.EventHandler(this.timer_Tick);
+            // 
             // frmChinh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -424,6 +466,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.applicationMenu1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nHANVIENBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pncntr)).EndInit();
+            this.pncntr.ResumeLayout(false);
+            this.pncntr.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -447,7 +492,7 @@
         //private QLSPDataSet1 qLSPDataSet1;
         private System.Windows.Forms.BindingSource nHANVIENBindingSource;
        // private QLSPDataSet1TableAdapters.NHANVIENTableAdapter nHANVIENTableAdapter;
-        private DevExpress.XtraBars.BarButtonItem btHTDangNhap;
+        private DevExpress.XtraBars.BarButtonItem btHTDangKy;
         private DevExpress.XtraBars.BarButtonItem btHTDangXuat;
         private DevExpress.XtraBars.BarButtonItem btHT_HDSD;
         private DevExpress.XtraBars.BarButtonItem btHTDoiMatKhau;
@@ -470,6 +515,9 @@
         private DevExpress.XtraBars.Ribbon.ApplicationMenu applicationMenu1;
         private DevExpress.XtraEditors.SimpleButton btExit;
         private DevExpress.XtraEditors.SimpleButton btMinimize;
+        private DevExpress.XtraEditors.PictureEdit pictureEdit1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Timer timer;
     }
 }
 

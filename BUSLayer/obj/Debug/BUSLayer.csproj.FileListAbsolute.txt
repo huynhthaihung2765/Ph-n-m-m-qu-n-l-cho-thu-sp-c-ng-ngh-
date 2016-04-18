@@ -40,3 +40,10 @@ E:\HocTap\Project Base\BUSLayer\bin\Debug\DAL.pdb
 E:\HocTap\Project Base\BUSLayer\obj\Debug\BUSLayer.csprojResolveAssemblyReference.cache
 E:\HocTap\Project Base\BUSLayer\obj\Debug\BUSLayer.dll
 E:\HocTap\Project Base\BUSLayer\obj\Debug\BUSLayer.pdb
+E:\HocTap\C#\Project Base\BUSLayer\obj\Debug\BUSLayer.csprojResolveAssemblyReference.cache
+E:\HocTap\C#\Project Base\BUSLayer\obj\Debug\BUSLayer.dll
+E:\HocTap\C#\Project Base\BUSLayer\obj\Debug\BUSLayer.pdb
+E:\HocTap\C#\Project Base\BUSLayer\bin\Debug\BUSLayer.dll
+E:\HocTap\C#\Project Base\BUSLayer\bin\Debug\BUSLayer.pdb
+E:\HocTap\C#\Project Base\BUSLayer\bin\Debug\DAL.dll
+E:\HocTap\C#\Project Base\BUSLayer\bin\Debug\DAL.pdb
